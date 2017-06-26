@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 195.0, 557.0, 1719.0, 1157.0 ],
+		"rect" : [ 195.0, 557.0, 955.0, 965.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -22,7 +22,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -30,8 +30,8 @@
 		"toolbars_unpinned_last_save" : 15,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -73,7 +73,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 250.0, 1236.5, 286.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.800049, 782.0, 295.199951, 33.0 ],
+					"presentation_rect" : [ 710.800049, 782.0, 247.0, 33.0 ],
 					"style" : "",
 					"text" : "Update Ensembles",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -434,7 +434,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 388.0, 942.0, 286.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.800049, 681.5, 203.199951, 33.0 ],
+					"presentation_rect" : [ 710.800049, 681.5, 247.0, 33.0 ],
 					"style" : "",
 					"text" : "open in browser",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -942,7 +942,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 333.600037, 1054.100098, 270.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 710.800049, 557.800049, 86.0, 33.0 ],
+					"presentation_rect" : [ 710.800049, 557.800049, 247.0, 33.0 ],
 					"style" : "",
 					"text" : "Server",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -16314,21 +16314,21 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "moduleManager.js",
-				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/code",
+				"bootpath" : "~/GitHub/CueWeb/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speedThin.maxpat",
-				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/patchers",
+				"bootpath" : "~/GitHub/CueWeb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listDelay.maxpat",
-				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/patchers",
+				"bootpath" : "~/GitHub/CueWeb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
