@@ -1,9 +1,0 @@
-{
-	"frame" : "blank",
-	"countIn" : "0",
-	"duration" : "0",
-	"timeCode" : "seconds",
-	"tempo" : 60,
-	"seq" : "n/a",
-	"lable" : "noLable"
-}

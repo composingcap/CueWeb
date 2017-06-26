@@ -1,1 +1,0 @@
-ensembles = [ 'TransientDominion', 'IndelibleStamp', 'Unweaving', 'Watchmaker', 'CelestialTeapot', 'Contagion', 'Permanence', 'Shadows', 'Tyrannei', 'Pascal', 'FleetingSym', 'GloriousAccidents', 'Ignorance', 'SplendidTorch', 'Sçayje', '' ] 

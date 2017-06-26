@@ -16,9 +16,7 @@ CueWeb is made up of three destinct parts:
 
 This being said: Timing is decentralized and over a network may not be exact.
 
-===== How to edit the ensembles in the p5.js sketch ======
-
-There is an array named ensembles at the top of the script. The selected ensemble name with acepted messages sent to that name.
+To run CueWeb open the Max/MSP project inside of max.
 
 ===== Using the EventDesigner ======
 
