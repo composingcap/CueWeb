@@ -1,0 +1,796 @@
+{
+	"TransientDominion" : 	{
+		"1" : 		{
+			"frame" : "conductor",
+			"countIn" : 2,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=1 5 5 4 4 4 3 5 5 4 4 4 3 4",
+			"lable" : "a"
+		}
+,
+		"ensemble" : "TransientDominion",
+		"2" : 		{
+			"frame" : "conductor",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=14 5 4 4 4 5 3 3 4",
+			"lable" : "b"
+		}
+,
+		"3" : 		{
+			"frame" : "conductor",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=22 3 3 4",
+			"lable" : "c"
+		}
+,
+		"4" : 		{
+			"frame" : "conductor",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=25 5 4 4 4 4 5 3 5 3 4 4",
+			"lable" : "d"
+		}
+,
+		"5" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=35 4 4 5 4",
+			"lable" : "e"
+		}
+,
+		"6" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=39 4 5 4 4 5 4",
+			"lable" : "f"
+		}
+,
+		"7" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=45 4 4 3 5 5 4 4 4 3 5 4",
+			"lable" : "g"
+		}
+
+	}
+,
+	"IndelibleStamp" : 	{
+		"1" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "a"
+		}
+,
+		"ensemble" : "IndelibleStamp",
+		"2" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=36 Ls 4 Lei",
+			"lable" : "bVamp"
+		}
+,
+		"3" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=42 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "c"
+		}
+,
+		"4" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
+			"lable" : "a+bVamp"
+		}
+,
+		"5" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "b+c"
+		}
+,
+		"6" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "a+b+c"
+		}
+,
+		"7" : 		{
+			"frame" : "blink",
+			"countIn" : 0,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "cuttoff"
+		}
+
+	}
+,
+	"Unweaving" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "a"
+		}
+,
+		"ensemble" : "Unweaving",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 108,
+			"seq" : "",
+			"lable" : "b"
+		}
+
+	}
+,
+	"Watchmaker" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "CountIn"
+		}
+,
+		"ensemble" : "Watchmaker",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "CuttOff"
+		}
+
+	}
+,
+	"CelestialTeapot" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "a"
+		}
+,
+		"ensemble" : "CelestialTeapot",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "b"
+		}
+,
+		"3" : 		{
+			"frame" : "metro",
+			"countIn" : 2,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "c"
+		}
+,
+		"4" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "d"
+		}
+,
+		"5" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "e"
+		}
+,
+		"6" : 		{
+			"frame" : "metro",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "f"
+		}
+
+	}
+,
+	"Contagion" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 332,
+			"seq" : "",
+			"lable" : "a"
+		}
+,
+		"ensemble" : "Contagion",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 7,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 332,
+			"seq" : "",
+			"lable" : "b"
+		}
+,
+		"3" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 332,
+			"seq" : "",
+			"lable" : "c"
+		}
+,
+		"4" : 		{
+			"frame" : "metro",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 332,
+			"seq" : "",
+			"lable" : "d"
+		}
+,
+		"5" : 		{
+			"frame" : "metro",
+			"countIn" : 7,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 332,
+			"seq" : "",
+			"lable" : "e"
+		}
+
+	}
+,
+	"Permanence" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Agitated"
+		}
+,
+		"ensemble" : "Permanence",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : "0",
+			"duration" : 5,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Ethereal"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Desultory"
+		}
+,
+		"4" : 		{
+			"frame" : "blank",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Vertiginous"
+		}
+
+	}
+,
+	"Shadows" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "start"
+		}
+,
+		"ensemble" : "Shadows",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "stop"
+		}
+
+	}
+,
+	"Tyrannei" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A"
+		}
+,
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B"
+		}
+,
+		"ensemble" : "Tyrannei",
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "C"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "D"
+		}
+,
+		"5" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "E"
+		}
+,
+		"6" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "F"
+		}
+
+	}
+,
+	"Pascal" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "A"
+		}
+,
+		"ensemble" : "Pascal",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "C"
+		}
+,
+		"4" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Cuttoff"
+		}
+
+	}
+,
+	"FleetingSym" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-1"
+		}
+,
+		"ensemble" : "FleetingSym",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-2"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-3"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-4"
+		}
+,
+		"5" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-5"
+		}
+,
+		"6" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-1"
+		}
+,
+		"7" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-2"
+		}
+,
+		"8" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-3"
+		}
+,
+		"9" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-4"
+		}
+,
+		"10" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-5"
+		}
+
+	}
+,
+	"GloriousAccidents" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A"
+		}
+,
+		"ensemble" : "GloriousAccidents",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "C"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "D"
+		}
+,
+		"5" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "E"
+		}
+,
+		"6" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "F"
+		}
+,
+		"7" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "G"
+		}
+,
+		"8" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Cuttoff"
+		}
+
+	}
+,
+	"Ignorance" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A"
+		}
+,
+		"ensemble" : "Ignorance",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "C"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "D"
+		}
+
+	}
+,
+	"SplendidTorch" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start"
+		}
+,
+		"ensemble" : "SplendidTorch",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+,
+	"Sçay-je" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start"
+		}
+,
+		"ensemble" : "Sçayje",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+,
+	"Geometry" : 	{
+		"1" : 		{
+			"frame" : "blank",
+			"countIn" : "0",
+			"duration" : 4,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start"
+		}
+,
+		"ensemble" : "",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+
+}
