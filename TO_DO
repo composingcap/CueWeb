@@ -1,0 +1,4 @@
+-Created a conductor function for asymetrical meter
+-Add a frame type for time linked SVG display
+-CueSync feature embeded in each cue instead of a global setting
+-Better interface for input
