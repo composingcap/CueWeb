@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1659.0, 34.0, 979.0, 1010.0 ],
+		"rect" : [ 1564.0, 366.0, 979.0, 1010.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -1157,7 +1157,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 33.666656, 694.0, 444.071442, 22.0 ],
-									"presentation_rect" : [ 509.666656, 738.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "join 8"
 								}
@@ -1916,16 +1915,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-79",
@@ -2253,16 +2244,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-6",
@@ -2296,16 +2279,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-1",
@@ -4464,16 +4439,8 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 2,
-										"data" : [ 											{
-												"key" : 0,
-												"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-											}
-, 											{
-												"key" : 1,
-												"value" : [ "IndelibleStamp b", "sync=0" ]
-											}
- ]
+										"count" : 0,
+										"data" : [  ]
 									}
 ,
 									"id" : "obj-17",
@@ -4770,16 +4737,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-6",
@@ -4839,16 +4798,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-1",
@@ -5121,16 +5072,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-78",
@@ -5473,16 +5416,8 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
-														"data" : [ 															{
-																"key" : 0,
-																"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "IndelibleStamp b", "sync=0" ]
-															}
- ]
+														"count" : 0,
+														"data" : [  ]
 													}
 ,
 													"id" : "obj-4",
@@ -5862,7 +5797,7 @@
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"bordercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"coldef" : [ [ 0, 20, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-									"cols" : 3,
+									"cols" : 1,
 									"colwidth" : 131,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -5879,23 +5814,15 @@
 									"presentation" : 1,
 									"presentation_rect" : [ -1.0, -0.829956, 327.5, 213.0 ],
 									"rowhead" : 1,
-									"rows" : 2
+									"rows" : 1
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 2,
-										"data" : [ 											{
-												"key" : 0,
-												"value" : [ "Watchmaker a", "Watchmaker b", "sync=1" ]
-											}
-, 											{
-												"key" : 1,
-												"value" : [ "IndelibleStamp b", "sync=0" ]
-											}
- ]
+										"count" : 0,
+										"data" : [  ]
 									}
 ,
 									"id" : "obj-78",
@@ -7286,7 +7213,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B"
+												"textMsg" : "B_is_Next"
 											}
 
 										}
@@ -7332,7 +7259,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
-												"lable" : "a+bVamp"
+												"lable" : "a+bVamp",
+												"textMsg" : "A+B(repeat)"
 											}
 ,
 											"5" : 											{
@@ -7342,7 +7270,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "b+c"
+												"lable" : "b+c",
+												"textMsg" : "B*1+C"
 											}
 ,
 											"6" : 											{
@@ -7352,7 +7281,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "a+b+c"
+												"lable" : "a+b+c",
+												"textMsg" : "A+B*1+C"
 											}
 ,
 											"7" : 											{
@@ -7375,7 +7305,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Unweaving",
@@ -7386,7 +7317,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 108,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 
 										}
@@ -7423,7 +7355,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "CelestialTeapot",
@@ -7434,7 +7367,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -7444,7 +7378,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -7454,7 +7389,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -7464,7 +7400,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -7474,7 +7411,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "f"
+												"lable" : "f",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -7482,53 +7420,58 @@
 										"Contagion" : 										{
 											"1" : 											{
 												"frame" : "metro",
-												"countIn" : 5,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Contagion",
 											"2" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 
 										}
@@ -7613,7 +7556,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"2" : 											{
@@ -7623,7 +7567,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"ensemble" : "Tyrannei",
@@ -7634,7 +7579,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -7644,7 +7590,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -7654,7 +7601,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -7664,7 +7612,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -7677,7 +7626,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Pascal",
@@ -7688,7 +7638,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -7698,7 +7649,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -7721,7 +7673,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-1"
+												"lable" : "A-1",
+												"textMsg" : "Rehersal_A-1"
 											}
 ,
 											"ensemble" : "FleetingSym",
@@ -7732,7 +7685,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-2"
+												"lable" : "A-2",
+												"textMsg" : "Rehersal_A-2"
 											}
 ,
 											"3" : 											{
@@ -7742,7 +7696,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-3"
+												"lable" : "A-3",
+												"textMsg" : "Rehersal_A-3"
 											}
 ,
 											"4" : 											{
@@ -7752,7 +7707,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-4"
+												"lable" : "A-4",
+												"textMsg" : "Rehersal_A-4"
 											}
 ,
 											"5" : 											{
@@ -7762,7 +7718,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-5"
+												"lable" : "A-5",
+												"textMsg" : "Rehersal_A-5"
 											}
 ,
 											"6" : 											{
@@ -7772,7 +7729,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-1"
+												"lable" : "B-1",
+												"textMsg" : "Rehersal_B-1"
 											}
 ,
 											"7" : 											{
@@ -7782,7 +7740,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-2"
+												"lable" : "B-2",
+												"textMsg" : "Rehersal_B-2"
 											}
 ,
 											"8" : 											{
@@ -7792,7 +7751,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-3"
+												"lable" : "B-3",
+												"textMsg" : "Rehersal_B-3"
 											}
 ,
 											"9" : 											{
@@ -7802,7 +7762,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-4"
+												"lable" : "B-4",
+												"textMsg" : "Rehersal_B-4"
 											}
 ,
 											"10" : 											{
@@ -7812,7 +7773,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-5"
+												"lable" : "B-5",
+												"textMsg" : "Rehersal_B-5"
 											}
 
 										}
@@ -7825,7 +7787,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "GloriousAccidents",
@@ -7836,7 +7799,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -7846,7 +7810,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -7856,7 +7821,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -7866,7 +7832,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -7876,7 +7843,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 ,
 											"7" : 											{
@@ -7886,7 +7854,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "G"
+												"lable" : "G",
+												"textMsg" : "Rehersal_G"
 											}
 ,
 											"8" : 											{
@@ -7909,7 +7878,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Ignorance",
@@ -7920,7 +7890,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -7930,7 +7901,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -7940,7 +7912,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 
 										}
@@ -8248,7 +8221,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B"
+												"textMsg" : "B_is_Next"
 											}
 
 										}
@@ -8294,7 +8267,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
-												"lable" : "a+bVamp"
+												"lable" : "a+bVamp",
+												"textMsg" : "A+B(repeat)"
 											}
 ,
 											"5" : 											{
@@ -8304,7 +8278,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "b+c"
+												"lable" : "b+c",
+												"textMsg" : "B*1+C"
 											}
 ,
 											"6" : 											{
@@ -8314,7 +8289,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "a+b+c"
+												"lable" : "a+b+c",
+												"textMsg" : "A+B*1+C"
 											}
 ,
 											"7" : 											{
@@ -8337,7 +8313,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Unweaving",
@@ -8348,7 +8325,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 108,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 
 										}
@@ -8385,7 +8363,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "CelestialTeapot",
@@ -8396,7 +8375,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -8406,7 +8386,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -8416,7 +8397,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -8426,7 +8408,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -8436,7 +8419,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "f"
+												"lable" : "f",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -8444,53 +8428,58 @@
 										"Contagion" : 										{
 											"1" : 											{
 												"frame" : "metro",
-												"countIn" : 5,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Contagion",
 											"2" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 
 										}
@@ -8575,7 +8564,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"2" : 											{
@@ -8585,7 +8575,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"ensemble" : "Tyrannei",
@@ -8596,7 +8587,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -8606,7 +8598,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -8616,7 +8609,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -8626,7 +8620,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -8639,7 +8634,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Pascal",
@@ -8650,7 +8646,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -8660,7 +8657,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -8683,7 +8681,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-1"
+												"lable" : "A-1",
+												"textMsg" : "Rehersal_A-1"
 											}
 ,
 											"ensemble" : "FleetingSym",
@@ -8694,7 +8693,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-2"
+												"lable" : "A-2",
+												"textMsg" : "Rehersal_A-2"
 											}
 ,
 											"3" : 											{
@@ -8704,7 +8704,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-3"
+												"lable" : "A-3",
+												"textMsg" : "Rehersal_A-3"
 											}
 ,
 											"4" : 											{
@@ -8714,7 +8715,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-4"
+												"lable" : "A-4",
+												"textMsg" : "Rehersal_A-4"
 											}
 ,
 											"5" : 											{
@@ -8724,7 +8726,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-5"
+												"lable" : "A-5",
+												"textMsg" : "Rehersal_A-5"
 											}
 ,
 											"6" : 											{
@@ -8734,7 +8737,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-1"
+												"lable" : "B-1",
+												"textMsg" : "Rehersal_B-1"
 											}
 ,
 											"7" : 											{
@@ -8744,7 +8748,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-2"
+												"lable" : "B-2",
+												"textMsg" : "Rehersal_B-2"
 											}
 ,
 											"8" : 											{
@@ -8754,7 +8759,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-3"
+												"lable" : "B-3",
+												"textMsg" : "Rehersal_B-3"
 											}
 ,
 											"9" : 											{
@@ -8764,7 +8770,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-4"
+												"lable" : "B-4",
+												"textMsg" : "Rehersal_B-4"
 											}
 ,
 											"10" : 											{
@@ -8774,7 +8781,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-5"
+												"lable" : "B-5",
+												"textMsg" : "Rehersal_B-5"
 											}
 
 										}
@@ -8787,7 +8795,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "GloriousAccidents",
@@ -8798,7 +8807,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -8808,7 +8818,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -8818,7 +8829,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -8828,7 +8840,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -8838,7 +8851,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 ,
 											"7" : 											{
@@ -8848,7 +8862,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "G"
+												"lable" : "G",
+												"textMsg" : "Rehersal_G"
 											}
 ,
 											"8" : 											{
@@ -8871,7 +8886,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Ignorance",
@@ -8882,7 +8898,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -8892,7 +8909,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -8902,7 +8920,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 
 										}
@@ -9539,6 +9558,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 125.5, 132.0, 29.835938 ],
 													"style" : "",
+													"text" : "B_is_next",
 													"varname" : "seq[2]",
 													"wordwrap" : 0
 												}
@@ -10467,7 +10487,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 80.5, 132.0, 29.835938 ],
 													"style" : "",
-													"text" : "CuttOff",
+													"text" : "B_Next",
 													"varname" : "seq[1]",
 													"wordwrap" : 0
 												}
@@ -11118,7 +11138,7 @@
 													"presentation_rect" : [ 130.770477, 9.0, 327.0, 27.0 ],
 													"style" : "",
 													"tabmode" : 0,
-													"text" : "Watchmaker",
+													"text" : "TransientDominion",
 													"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ],
 													"varname" : "ensemble",
 													"wordwrap" : 0
@@ -11362,7 +11382,7 @@
 																				"tempo" : 60,
 																				"seq" : "",
 																				"lable" : "B_Next",
-																				"textMsg" : "B"
+																				"textMsg" : "B_is_Next"
 																			}
 
 																		}
@@ -11408,7 +11428,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 72,
 																				"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
-																				"lable" : "a+bVamp"
+																				"lable" : "a+bVamp",
+																				"textMsg" : "A+B(repeat)"
 																			}
 ,
 																			"5" : 																			{
@@ -11418,7 +11439,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 72,
 																				"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-																				"lable" : "b+c"
+																				"lable" : "b+c",
+																				"textMsg" : "B*1+C"
 																			}
 ,
 																			"6" : 																			{
@@ -11428,7 +11450,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-																				"lable" : "a+b+c"
+																				"lable" : "a+b+c",
+																				"textMsg" : "A+B*1+C"
 																			}
 ,
 																			"7" : 																			{
@@ -11451,7 +11474,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "a"
+																				"lable" : "a",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "Unweaving",
@@ -11462,7 +11486,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 108,
 																				"seq" : "",
-																				"lable" : "b"
+																				"lable" : "b",
+																				"textMsg" : "Rehersal_B"
 																			}
 
 																		}
@@ -11499,7 +11524,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "a"
+																				"lable" : "a",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "CelestialTeapot",
@@ -11510,7 +11536,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "b"
+																				"lable" : "b",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"3" : 																			{
@@ -11520,7 +11547,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "c"
+																				"lable" : "c",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
@@ -11530,7 +11558,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "d"
+																				"lable" : "d",
+																				"textMsg" : "Rehersal_D"
 																			}
 ,
 																			"5" : 																			{
@@ -11540,7 +11569,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "e"
+																				"lable" : "e",
+																				"textMsg" : "Rehersal_E"
 																			}
 ,
 																			"6" : 																			{
@@ -11550,7 +11580,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 54,
 																				"seq" : "",
-																				"lable" : "f"
+																				"lable" : "f",
+																				"textMsg" : "Rehersal_F"
 																			}
 
 																		}
@@ -11558,53 +11589,58 @@
 																		"Contagion" : 																		{
 																			"1" : 																			{
 																				"frame" : "metro",
-																				"countIn" : 5,
+																				"countIn" : 4,
 																				"duration" : "0",
 																				"timeCode" : "seconds",
-																				"tempo" : 332,
+																				"tempo" : 166,
 																				"seq" : "",
-																				"lable" : "a"
+																				"lable" : "a",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "Contagion",
 																			"2" : 																			{
 																				"frame" : "metro",
-																				"countIn" : 7,
+																				"countIn" : 4,
 																				"duration" : "0",
 																				"timeCode" : "seconds",
-																				"tempo" : 332,
+																				"tempo" : 166,
 																				"seq" : "",
-																				"lable" : "b"
+																				"lable" : "b",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"3" : 																			{
 																				"frame" : "metro",
-																				"countIn" : 6,
+																				"countIn" : 4,
 																				"duration" : "0",
 																				"timeCode" : "seconds",
-																				"tempo" : 332,
+																				"tempo" : 166,
 																				"seq" : "",
-																				"lable" : "c"
+																				"lable" : "c",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
 																				"frame" : "metro",
-																				"countIn" : 6,
+																				"countIn" : 4,
 																				"duration" : "0",
 																				"timeCode" : "seconds",
-																				"tempo" : 332,
+																				"tempo" : 166,
 																				"seq" : "",
-																				"lable" : "d"
+																				"lable" : "d",
+																				"textMsg" : "Rehersal_D"
 																			}
 ,
 																			"5" : 																			{
 																				"frame" : "metro",
-																				"countIn" : 7,
+																				"countIn" : 4,
 																				"duration" : "0",
 																				"timeCode" : "seconds",
-																				"tempo" : 332,
+																				"tempo" : 166,
 																				"seq" : "",
-																				"lable" : "e"
+																				"lable" : "e",
+																				"textMsg" : "Rehersal_E"
 																			}
 
 																		}
@@ -11689,7 +11725,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A"
+																				"lable" : "A",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"2" : 																			{
@@ -11699,7 +11736,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B"
+																				"lable" : "B",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"ensemble" : "Tyrannei",
@@ -11710,7 +11748,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "C"
+																				"lable" : "C",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
@@ -11720,7 +11759,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "D"
+																				"lable" : "D",
+																				"textMsg" : "Rehersal_D"
 																			}
 ,
 																			"5" : 																			{
@@ -11730,7 +11770,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "E"
+																				"lable" : "E",
+																				"textMsg" : "Rehersal_E"
 																			}
 ,
 																			"6" : 																			{
@@ -11740,7 +11781,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "F"
+																				"lable" : "F",
+																				"textMsg" : "Rehersal_F"
 																			}
 
 																		}
@@ -11753,7 +11795,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 138,
 																				"seq" : "",
-																				"lable" : "A"
+																				"lable" : "A",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "Pascal",
@@ -11764,7 +11807,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 138,
 																				"seq" : "",
-																				"lable" : "B"
+																				"lable" : "B",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"3" : 																			{
@@ -11774,7 +11818,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 138,
 																				"seq" : "",
-																				"lable" : "C"
+																				"lable" : "C",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
@@ -11797,7 +11842,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A-1"
+																				"lable" : "A-1",
+																				"textMsg" : "Rehersal_A-1"
 																			}
 ,
 																			"ensemble" : "FleetingSym",
@@ -11808,7 +11854,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A-2"
+																				"lable" : "A-2",
+																				"textMsg" : "Rehersal_A-2"
 																			}
 ,
 																			"3" : 																			{
@@ -11818,7 +11865,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A-3"
+																				"lable" : "A-3",
+																				"textMsg" : "Rehersal_A-3"
 																			}
 ,
 																			"4" : 																			{
@@ -11828,7 +11876,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A-4"
+																				"lable" : "A-4",
+																				"textMsg" : "Rehersal_A-4"
 																			}
 ,
 																			"5" : 																			{
@@ -11838,7 +11887,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A-5"
+																				"lable" : "A-5",
+																				"textMsg" : "Rehersal_A-5"
 																			}
 ,
 																			"6" : 																			{
@@ -11848,7 +11898,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B-1"
+																				"lable" : "B-1",
+																				"textMsg" : "Rehersal_B-1"
 																			}
 ,
 																			"7" : 																			{
@@ -11858,7 +11909,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B-2"
+																				"lable" : "B-2",
+																				"textMsg" : "Rehersal_B-2"
 																			}
 ,
 																			"8" : 																			{
@@ -11868,7 +11920,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B-3"
+																				"lable" : "B-3",
+																				"textMsg" : "Rehersal_B-3"
 																			}
 ,
 																			"9" : 																			{
@@ -11878,7 +11931,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B-4"
+																				"lable" : "B-4",
+																				"textMsg" : "Rehersal_B-4"
 																			}
 ,
 																			"10" : 																			{
@@ -11888,7 +11942,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B-5"
+																				"lable" : "B-5",
+																				"textMsg" : "Rehersal_B-5"
 																			}
 
 																		}
@@ -11901,7 +11956,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A"
+																				"lable" : "A",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "GloriousAccidents",
@@ -11912,7 +11968,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B"
+																				"lable" : "B",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"3" : 																			{
@@ -11922,7 +11979,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "C"
+																				"lable" : "C",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
@@ -11932,7 +11990,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "D"
+																				"lable" : "D",
+																				"textMsg" : "Rehersal_D"
 																			}
 ,
 																			"5" : 																			{
@@ -11942,7 +12001,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "E"
+																				"lable" : "E",
+																				"textMsg" : "Rehersal_E"
 																			}
 ,
 																			"6" : 																			{
@@ -11952,7 +12012,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "F"
+																				"lable" : "F",
+																				"textMsg" : "Rehersal_F"
 																			}
 ,
 																			"7" : 																			{
@@ -11962,7 +12023,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "G"
+																				"lable" : "G",
+																				"textMsg" : "Rehersal_G"
 																			}
 ,
 																			"8" : 																			{
@@ -11985,7 +12047,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "A"
+																				"lable" : "A",
+																				"textMsg" : "Rehersal_A"
 																			}
 ,
 																			"ensemble" : "Ignorance",
@@ -11996,7 +12059,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "B"
+																				"lable" : "B",
+																				"textMsg" : "Rehersal_B"
 																			}
 ,
 																			"3" : 																			{
@@ -12006,7 +12070,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "C"
+																				"lable" : "C",
+																				"textMsg" : "Rehersal_C"
 																			}
 ,
 																			"4" : 																			{
@@ -12016,7 +12081,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "D"
+																				"lable" : "D",
+																				"textMsg" : "Rehersal_D"
 																			}
 
 																		}
@@ -13845,7 +13911,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 421.0, 797.0, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "rows 2"
+													"text" : "rows 9"
 												}
 
 											}
@@ -14673,7 +14739,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 195.0, 46.941742, 97.270477, 108.058258 ],
 									"rowheight" : 22,
-									"rows" : 2
+									"rows" : 9
 								}
 
 							}
@@ -15466,7 +15532,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B"
+												"textMsg" : "B_is_Next"
 											}
 
 										}
@@ -15512,7 +15578,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
-												"lable" : "a+bVamp"
+												"lable" : "a+bVamp",
+												"textMsg" : "A+B(repeat)"
 											}
 ,
 											"5" : 											{
@@ -15522,7 +15589,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 72,
 												"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "b+c"
+												"lable" : "b+c",
+												"textMsg" : "B*1+C"
 											}
 ,
 											"6" : 											{
@@ -15532,7 +15600,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
-												"lable" : "a+b+c"
+												"lable" : "a+b+c",
+												"textMsg" : "A+B*1+C"
 											}
 ,
 											"7" : 											{
@@ -15555,7 +15624,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Unweaving",
@@ -15566,7 +15636,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 108,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 
 										}
@@ -15603,7 +15674,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "CelestialTeapot",
@@ -15614,7 +15686,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -15624,7 +15697,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -15634,7 +15708,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -15644,7 +15719,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -15654,7 +15730,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 54,
 												"seq" : "",
-												"lable" : "f"
+												"lable" : "f",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -15662,53 +15739,58 @@
 										"Contagion" : 										{
 											"1" : 											{
 												"frame" : "metro",
-												"countIn" : 5,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "a"
+												"lable" : "a",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Contagion",
 											"2" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "b"
+												"lable" : "b",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "c"
+												"lable" : "c",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
 												"frame" : "metro",
-												"countIn" : 6,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "d"
+												"lable" : "d",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
 												"frame" : "metro",
-												"countIn" : 7,
+												"countIn" : 4,
 												"duration" : "0",
 												"timeCode" : "seconds",
-												"tempo" : 332,
+												"tempo" : 166,
 												"seq" : "",
-												"lable" : "e"
+												"lable" : "e",
+												"textMsg" : "Rehersal_E"
 											}
 
 										}
@@ -15793,7 +15875,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"2" : 											{
@@ -15803,7 +15886,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"ensemble" : "Tyrannei",
@@ -15814,7 +15898,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -15824,7 +15909,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -15834,7 +15920,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -15844,7 +15931,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 
 										}
@@ -15857,7 +15945,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Pascal",
@@ -15868,7 +15957,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -15878,7 +15968,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 138,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -15901,7 +15992,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-1"
+												"lable" : "A-1",
+												"textMsg" : "Rehersal_A-1"
 											}
 ,
 											"ensemble" : "FleetingSym",
@@ -15912,7 +16004,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-2"
+												"lable" : "A-2",
+												"textMsg" : "Rehersal_A-2"
 											}
 ,
 											"3" : 											{
@@ -15922,7 +16015,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-3"
+												"lable" : "A-3",
+												"textMsg" : "Rehersal_A-3"
 											}
 ,
 											"4" : 											{
@@ -15932,7 +16026,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-4"
+												"lable" : "A-4",
+												"textMsg" : "Rehersal_A-4"
 											}
 ,
 											"5" : 											{
@@ -15942,7 +16037,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A-5"
+												"lable" : "A-5",
+												"textMsg" : "Rehersal_A-5"
 											}
 ,
 											"6" : 											{
@@ -15952,7 +16048,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-1"
+												"lable" : "B-1",
+												"textMsg" : "Rehersal_B-1"
 											}
 ,
 											"7" : 											{
@@ -15962,7 +16059,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-2"
+												"lable" : "B-2",
+												"textMsg" : "Rehersal_B-2"
 											}
 ,
 											"8" : 											{
@@ -15972,7 +16070,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-3"
+												"lable" : "B-3",
+												"textMsg" : "Rehersal_B-3"
 											}
 ,
 											"9" : 											{
@@ -15982,7 +16081,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-4"
+												"lable" : "B-4",
+												"textMsg" : "Rehersal_B-4"
 											}
 ,
 											"10" : 											{
@@ -15992,7 +16092,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B-5"
+												"lable" : "B-5",
+												"textMsg" : "Rehersal_B-5"
 											}
 
 										}
@@ -16005,7 +16106,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "GloriousAccidents",
@@ -16016,7 +16118,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -16026,7 +16129,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -16036,7 +16140,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 ,
 											"5" : 											{
@@ -16046,7 +16151,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "E"
+												"lable" : "E",
+												"textMsg" : "Rehersal_E"
 											}
 ,
 											"6" : 											{
@@ -16056,7 +16162,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "F"
+												"lable" : "F",
+												"textMsg" : "Rehersal_F"
 											}
 ,
 											"7" : 											{
@@ -16066,7 +16173,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "G"
+												"lable" : "G",
+												"textMsg" : "Rehersal_G"
 											}
 ,
 											"8" : 											{
@@ -16089,7 +16197,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "A"
+												"lable" : "A",
+												"textMsg" : "Rehersal_A"
 											}
 ,
 											"ensemble" : "Ignorance",
@@ -16100,7 +16209,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "B"
+												"lable" : "B",
+												"textMsg" : "Rehersal_B"
 											}
 ,
 											"3" : 											{
@@ -16110,7 +16220,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "C"
+												"lable" : "C",
+												"textMsg" : "Rehersal_C"
 											}
 ,
 											"4" : 											{
@@ -16120,7 +16231,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "D"
+												"lable" : "D",
+												"textMsg" : "Rehersal_D"
 											}
 
 										}
@@ -17008,8 +17120,7 @@
 					"maxclass" : "hint",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.0, 1065.0, 269.0, 97.0 ],
-					"presentation_rect" : [ 26.0, 1065.0, 0.0, 0.0 ]
+					"patching_rect" : [ 25.0, 1065.0, 269.0, 97.0 ]
 				}
 
 			}
@@ -17187,28 +17298,28 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ],
 			"obj-35::obj-97::obj-38" : [ "live.text[1]", "live.text", 0 ],
-			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ]
+			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "moduleManager.js",
-				"bootpath" : "~/GitHub/CueWeb/code",
+				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "speedThin.maxpat",
-				"bootpath" : "~/GitHub/CueWeb/patchers",
+				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listDelay.maxpat",
-				"bootpath" : "~/GitHub/CueWeb/patchers",
+				"bootpath" : "~/Dropbox/Max/Projects/CueWeb/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1

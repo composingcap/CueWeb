@@ -20,9 +20,10 @@ var loopInfo;
 var textMsg;
 var ensembles = [error];
 
-function preload(){
+function preload(){ //This calls the ensemble list from the server on load.
 loadJSON('/data/ensemble', function(reply){
   ensembles = reply;
+  ensembles = ensembles.concat(["global"])
 });
   socket = io.connect(window.location.href);
   socket.on('FrameMessage', frameChange);
@@ -67,12 +68,12 @@ function frameChange(data){
 
   if (data !== undefined){
       console.log(data);
-  if (data[0] === thisEnsemble){
+  if ((data[0] === thisEnsemble) || (thisEnsemble === "global")){
     nextCue = data[1];
     frame = data[2];
     tempo = data[3];
     countIn = data[4];
-    textMsg = data[6];
+    textMsg = data[6].replace(/_/g , ' ');
     seq = data.slice(7);
     cueMarker= 0;
 
@@ -135,8 +136,8 @@ function displayText(){
     background(150);
     fill(0);
     textSize(squareSide/4);
-    textAlign(CENTER);
-    text(textMsg, width/2,height/2);
+    textAlign(CENTER, CENTER);
+    text(textMsg, 0, 0, width, height);
    // }
 }
 
