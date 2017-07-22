@@ -1869,7 +1869,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 115.0, 232.0, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "0"
+													"text" : "1"
 												}
 
 											}
@@ -1915,8 +1915,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-79",
@@ -2244,8 +2252,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-6",
@@ -2279,8 +2295,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-1",
@@ -4173,7 +4197,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ -1.0, 240.170044, 609.0, 40.0 ],
 									"style" : "",
-									"text" : "Watchmaker CountIn"
+									"text" : "TransientDominion A"
 								}
 
 							}
@@ -4326,7 +4350,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 918.75, 534.710938, 116.0, 38.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 182.75, 306.459106, 199.0, 22.0 ],
+									"presentation_rect" : [ 182.75, 313.459106, 199.0, 22.0 ],
 									"style" : "",
 									"text" : "Recall Selected Event (return)",
 									"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -4439,8 +4463,16 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 0,
-										"data" : [  ]
+										"count" : 2,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "TransientDominion a" ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+											}
+ ]
 									}
 ,
 									"id" : "obj-17",
@@ -4737,8 +4769,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-6",
@@ -4798,8 +4838,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-1",
@@ -5072,8 +5120,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-78",
@@ -5416,8 +5472,16 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 0,
-														"data" : [  ]
+														"count" : 2,
+														"data" : [ 															{
+																"key" : 0,
+																"value" : [ "TransientDominion a" ]
+															}
+, 															{
+																"key" : 1,
+																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+															}
+ ]
 													}
 ,
 													"id" : "obj-4",
@@ -5798,7 +5862,7 @@
 									"bordercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"coldef" : [ [ 0, 20, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
 									"cols" : 1,
-									"colwidth" : 131,
+									"colwidth" : 140,
 									"fontface" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -5821,8 +5885,16 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 0,
-										"data" : [  ]
+										"count" : 2,
+										"data" : [ 											{
+												"key" : 0,
+												"value" : [ "TransientDominion a" ]
+											}
+, 											{
+												"key" : 1,
+												"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+											}
+ ]
 									}
 ,
 									"id" : "obj-78",
@@ -7202,7 +7274,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "A_Next",
-												"textMsg" : "A"
+												"textMsg" : "A_is_next"
 											}
 ,
 											"9" : 											{
@@ -7213,7 +7285,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B_is_Next"
+												"textMsg" : "B_is_next"
 											}
 
 										}
@@ -7331,7 +7403,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "CountIn"
+												"lable" : "CountIn",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Watchmaker",
@@ -7951,7 +8024,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Sçayje",
@@ -7975,7 +8049,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "",
@@ -8210,7 +8285,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "A_Next",
-												"textMsg" : "A"
+												"textMsg" : "A_is_next"
 											}
 ,
 											"9" : 											{
@@ -8221,7 +8296,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B_is_Next"
+												"textMsg" : "B_is_next"
 											}
 
 										}
@@ -8339,7 +8414,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "CountIn"
+												"lable" : "CountIn",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Watchmaker",
@@ -8959,7 +9035,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Sçayje",
@@ -8983,7 +9060,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "",
@@ -9558,7 +9636,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 125.5, 132.0, 29.835938 ],
 													"style" : "",
-													"text" : "B_is_next",
+													"text" : "Rehersal_A",
 													"varname" : "seq[2]",
 													"wordwrap" : 0
 												}
@@ -10487,7 +10565,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 80.5, 132.0, 29.835938 ],
 													"style" : "",
-													"text" : "B_Next",
+													"text" : "A",
 													"varname" : "seq[1]",
 													"wordwrap" : 0
 												}
@@ -10570,6 +10648,7 @@
 													"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 													"hint" : "cue list for the conductor frame",
 													"id" : "obj-72",
+													"linecount" : 2,
 													"maxclass" : "textedit",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -10577,8 +10656,10 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 167.25, 379.582031, 205.0, 38.835938 ],
 													"presentation" : 1,
+													"presentation_linecount" : 2,
 													"presentation_rect" : [ 130.770477, 196.332031, 327.0, 52.335938 ],
 													"style" : "",
+													"text" : "\"M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4\"",
 													"varname" : "seq"
 												}
 
@@ -11138,7 +11219,7 @@
 													"presentation_rect" : [ 130.770477, 9.0, 327.0, 27.0 ],
 													"style" : "",
 													"tabmode" : 0,
-													"text" : "TransientDominion",
+													"text" : "IndelibleStamp",
 													"textcolor" : [ 0.921569, 0.917647, 0.933333, 1.0 ],
 													"varname" : "ensemble",
 													"wordwrap" : 0
@@ -11371,7 +11452,7 @@
 																				"tempo" : 60,
 																				"seq" : "",
 																				"lable" : "A_Next",
-																				"textMsg" : "A"
+																				"textMsg" : "A_is_next"
 																			}
 ,
 																			"9" : 																			{
@@ -11382,7 +11463,7 @@
 																				"tempo" : 60,
 																				"seq" : "",
 																				"lable" : "B_Next",
-																				"textMsg" : "B_is_Next"
+																				"textMsg" : "B_is_next"
 																			}
 
 																		}
@@ -11500,7 +11581,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "CountIn"
+																				"lable" : "CountIn",
+																				"textMsg" : "Start_In"
 																			}
 ,
 																			"ensemble" : "Watchmaker",
@@ -12120,7 +12202,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "Start"
+																				"lable" : "Start",
+																				"textMsg" : "Start_In"
 																			}
 ,
 																			"ensemble" : "Sçayje",
@@ -12144,7 +12227,8 @@
 																				"timeCode" : "seconds",
 																				"tempo" : 60,
 																				"seq" : "",
-																				"lable" : "Start"
+																				"lable" : "Start",
+																				"textMsg" : "Start_In"
 																			}
 ,
 																			"ensemble" : "",
@@ -13911,7 +13995,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 421.0, 797.0, 50.0, 22.0 ],
 													"style" : "",
-													"text" : "rows 9"
+													"text" : "rows 7"
 												}
 
 											}
@@ -14739,7 +14823,7 @@
 									"presentation" : 1,
 									"presentation_rect" : [ 195.0, 46.941742, 97.270477, 108.058258 ],
 									"rowheight" : 22,
-									"rows" : 9
+									"rows" : 7
 								}
 
 							}
@@ -15521,7 +15605,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "A_Next",
-												"textMsg" : "A"
+												"textMsg" : "A_is_next"
 											}
 ,
 											"9" : 											{
@@ -15532,7 +15616,7 @@
 												"tempo" : 60,
 												"seq" : "",
 												"lable" : "B_Next",
-												"textMsg" : "B_is_Next"
+												"textMsg" : "B_is_next"
 											}
 
 										}
@@ -15650,7 +15734,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "CountIn"
+												"lable" : "CountIn",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Watchmaker",
@@ -16270,7 +16355,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "Sçayje",
@@ -16294,7 +16380,8 @@
 												"timeCode" : "seconds",
 												"tempo" : 60,
 												"seq" : "",
-												"lable" : "Start"
+												"lable" : "Start",
+												"textMsg" : "Start_In"
 											}
 ,
 											"ensemble" : "",
@@ -17298,9 +17385,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ],
+			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-35::obj-97::obj-38" : [ "live.text[1]", "live.text", 0 ],
-			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ]
+			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
