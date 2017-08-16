@@ -517,8 +517,7 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "bang", "int" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 677.0, 130.0, 101.0, 22.0 ],
 					"style" : "",
 					"text" : "text README.txt"
@@ -1764,7 +1763,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 84.0, 106.0, 1487.0, 1085.0 ],
+						"rect" : [ 1222.0, 402.0, 1487.0, 1085.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -1792,6 +1791,32 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-49",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 35.0, 767.0, 41.0, 22.0 ],
+									"style" : "",
+									"text" : "dump"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-19",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 35.0, 749.0, 60.0, 22.0 ],
+									"style" : "",
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-91",
 									"maxclass" : "newobj",
@@ -1915,14 +1940,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -2252,14 +2273,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -2295,14 +2312,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -4178,7 +4191,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 254.0, 657.0, 37.0, 22.0 ],
+									"patching_rect" : [ 323.75, 678.0, 37.0, 22.0 ],
 									"style" : "",
 									"text" : "open"
 								}
@@ -4463,14 +4476,10 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 2,
+										"count" : 1,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "TransientDominion a" ]
-											}
-, 											{
-												"key" : 1,
-												"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+												"value" : [ "IndelibleStamp b" ]
 											}
  ]
 									}
@@ -4769,14 +4778,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -4838,14 +4843,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -5120,14 +5121,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -5472,14 +5469,10 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 2,
+														"count" : 1,
 														"data" : [ 															{
 																"key" : 0,
-																"value" : [ "TransientDominion a" ]
-															}
-, 															{
-																"key" : 1,
-																"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+																"value" : [ "IndelibleStamp b" ]
 															}
  ]
 													}
@@ -5623,7 +5616,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 440.0, 58.710938, 60.0, 22.0 ],
+									"patching_rect" : [ 440.0, 53.710938, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -5861,7 +5854,7 @@
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 									"bordercolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 									"coldef" : [ [ 0, 20, 1, 0.0, 0.0, 0.0, 1.0, 1, 0.0, 0.0, 0.0, 1.0, -1, -1, -1 ] ],
-									"cols" : 1,
+									"cols" : 2,
 									"colwidth" : 140,
 									"fontface" : 0,
 									"fontname" : "Arial",
@@ -5885,14 +5878,10 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 2,
+										"count" : 1,
 										"data" : [ 											{
 												"key" : 0,
-												"value" : [ "TransientDominion a" ]
-											}
-, 											{
-												"key" : 1,
-												"value" : [ "Unweaving a", "Watchmaker a", "sync=1" ]
+												"value" : [ "IndelibleStamp b" ]
 											}
  ]
 									}
@@ -6160,6 +6149,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-49", 0 ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-166", 0 ],
 									"source" : [ "obj-190", 2 ]
 								}
@@ -6403,6 +6399,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-28", 0 ],
 									"source" : [ "obj-48", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-78", 0 ],
+									"source" : [ "obj-49", 0 ]
 								}
 
 							}
@@ -9636,7 +9639,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 125.5, 132.0, 29.835938 ],
 													"style" : "",
-													"text" : "Rehersal_A",
+													"text" : "Rehersal_B",
 													"varname" : "seq[2]",
 													"wordwrap" : 0
 												}
@@ -10565,7 +10568,7 @@
 													"presentation" : 1,
 													"presentation_rect" : [ 280.25, 80.5, 132.0, 29.835938 ],
 													"style" : "",
-													"text" : "A",
+													"text" : "bVamp",
 													"varname" : "seq[1]",
 													"wordwrap" : 0
 												}
@@ -10648,7 +10651,6 @@
 													"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 													"hint" : "cue list for the conductor frame",
 													"id" : "obj-72",
-													"linecount" : 2,
 													"maxclass" : "textedit",
 													"numinlets" : 1,
 													"numoutlets" : 4,
@@ -10656,10 +10658,9 @@
 													"parameter_enable" : 0,
 													"patching_rect" : [ 167.25, 379.582031, 205.0, 38.835938 ],
 													"presentation" : 1,
-													"presentation_linecount" : 2,
 													"presentation_rect" : [ 130.770477, 196.332031, 327.0, 52.335938 ],
 													"style" : "",
-													"text" : "\"M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4\"",
+													"text" : "\"M=36 Ls 4 Lei\"",
 													"varname" : "seq"
 												}
 
@@ -17385,8 +17386,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-35::obj-97::obj-38" : [ "live.text[1]", "live.text", 0 ],
+			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ]
 		}
 ,

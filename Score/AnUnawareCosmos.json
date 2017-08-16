@@ -216,7 +216,8 @@
 			"timeCode" : "seconds",
 			"tempo" : 60,
 			"seq" : "",
-			"lable" : "CountIn"
+			"lable" : "CountIn",
+			"textMsg" : "Start_In"
 		}
 ,
 		"ensemble" : "Watchmaker",
@@ -417,7 +418,8 @@
 			"timeCode" : "seconds",
 			"tempo" : 60,
 			"seq" : "",
-			"lable" : "start"
+			"lable" : "start",
+			"textMsg" : "Shadows_Start"
 		}
 ,
 		"ensemble" : "Shadows",
@@ -836,7 +838,8 @@
 			"timeCode" : "seconds",
 			"tempo" : 60,
 			"seq" : "",
-			"lable" : "Start"
+			"lable" : "Start",
+			"textMsg" : "Start_In"
 		}
 ,
 		"ensemble" : "Sçayje",
@@ -860,7 +863,8 @@
 			"timeCode" : "seconds",
 			"tempo" : 60,
 			"seq" : "",
-			"lable" : "Start"
+			"lable" : "Start",
+			"textMsg" : "Start_In"
 		}
 ,
 		"ensemble" : "",
