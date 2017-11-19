@@ -253,9 +253,11 @@ function displayText(){
      }
      var timer = (now - then);
      if ((duration === 0) || (duration*1000 <= timer)){ */
-      background(150);
-      fill(0);
-      textSize(squareSide/4);
+      background(0);
+      fill(255, 0, 0);
+      strokeWeight(squareSide/60);
+      stroke(255);
+      textSize(squareSide/6);
       textAlign(CENTER, CENTER);
       text(textMsg, 0, 0, width, height);
      // }
