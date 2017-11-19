@@ -1,0 +1,1 @@
+0, "CelestialTeapot c" sync=0;1, "Permanence d" "Shadows e" sync=0;2, "FleetingSym b" "Sçay-je b" "Ignorance a" sync=0;

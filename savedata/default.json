@@ -1,0 +1,714 @@
+{
+	"TransientDominion" : 	{
+		"1" : 		{
+			"frame" : "conductor",
+			"countIn" : 2,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=1 5 5 4 4 4 3 5 5 4 4 4 3 4",
+			"lable" : "A",
+			"textMsg" : "Rehersal_A",
+			"TransientDominion" : ""
+		}
+,
+		"ensemble" : "TransientDominion",
+		"2" : 		{
+			"frame" : "conductor",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=14 5 4 4 4 5 3 3 4",
+			"lable" : "B",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "conductor",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=22 3 3 4",
+			"lable" : "C",
+			"textMsg" : "Rehersal_C"
+		}
+,
+		"4" : 		{
+			"frame" : "conductor",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=25 5 4 4 4 4 5 3 5 3 4 4",
+			"lable" : "D",
+			"textMsg" : "Rehersal_D"
+		}
+,
+		"5" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=35 4 4 5 4",
+			"lable" : "E",
+			"textMsg" : "Rehersal_E"
+		}
+,
+		"6" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=39 4 5 4 4 5 4",
+			"lable" : "F",
+			"textMsg" : "Rehersal_F"
+		}
+,
+		"7" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 90,
+			"seq" : "M=45 4 4 3 5 5 4 4 4 3 5 4",
+			"lable" : "G",
+			"textMsg" : "Rehersal_G"
+		}
+,
+		"8" : 		{
+			"frame" : "text",
+			"countIn" : "0",
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A_Next",
+			"textMsg" : "A_is_next"
+		}
+,
+		"9" : 		{
+			"frame" : "text",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B_Next",
+			"textMsg" : "B_is_next"
+		}
+
+	}
+,
+	"IndelibleStamp" : 	{
+		"1" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "A",
+			"textMsg" : "Rehersal_A"
+		}
+,
+		"ensemble" : "IndelibleStamp",
+		"2" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=36 Ls 4 Lei",
+			"lable" : "bVamp",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=42 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "c"
+		}
+,
+		"4" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Lei",
+			"lable" : "a+bVamp",
+			"textMsg" : "A+B(repeat)"
+		}
+,
+		"5" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 72,
+			"seq" : "M=36 Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "b+c",
+			"textMsg" : "B*1+C"
+		}
+,
+		"6" : 		{
+			"frame" : "conductor",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "M=1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4  Ls 4 4 4 4 4 4 Le1 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4",
+			"lable" : "a+b+c",
+			"textMsg" : "A+B*1+C"
+		}
+,
+		"7" : 		{
+			"frame" : "blink",
+			"countIn" : 0,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "cuttoff"
+		}
+,
+		"8" : 		{
+			"frame" : "blank",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "test",
+			"textMsg" : "test"
+		}
+
+	}
+,
+	"CelestialTeapot" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : 0,
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "a",
+			"textMsg" : "Rehersal_A"
+		}
+,
+		"ensemble" : "CelestialTeapot",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 3,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "b",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "metro",
+			"countIn" : 2,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "c",
+			"textMsg" : "Rehersal_C"
+		}
+,
+		"4" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "d",
+			"textMsg" : "Rehersal_D"
+		}
+,
+		"5" : 		{
+			"frame" : "metro",
+			"countIn" : 6,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "e",
+			"textMsg" : "Rehersal_E"
+		}
+,
+		"6" : 		{
+			"frame" : "metro",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 54,
+			"seq" : "",
+			"lable" : "f",
+			"textMsg" : "Rehersal_F"
+		}
+
+	}
+,
+	"Permanence" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Agitated",
+			"textMsg" : "Agitated"
+		}
+,
+		"ensemble" : "Permanence",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : "0",
+			"duration" : 5,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Ethereal",
+			"textMsg" : "Ethereal"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Desultory",
+			"textMsg" : "Desultory"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Vertiginous",
+			"textMsg" : "Vertiginous"
+		}
+
+	}
+,
+	"Shadows" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "start",
+			"textMsg" : "Shadows_Start"
+		}
+,
+		"ensemble" : "Shadows",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "stop"
+		}
+
+	}
+,
+	"Pascal" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "A",
+			"textMsg" : "Rehersal_A"
+		}
+,
+		"ensemble" : "Pascal",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "B",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 4,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 138,
+			"seq" : "",
+			"lable" : "C",
+			"textMsg" : "Rehersal_C"
+		}
+,
+		"4" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Cuttoff"
+		}
+
+	}
+,
+	"FleetingSym" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-1",
+			"textMsg" : "Rehersal_A-1"
+		}
+,
+		"ensemble" : "FleetingSym",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-2",
+			"textMsg" : "Rehersal_A-2"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-3",
+			"textMsg" : "Rehersal_A-3"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-4",
+			"textMsg" : "Rehersal_A-4"
+		}
+,
+		"5" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A-5",
+			"textMsg" : "Rehersal_A-5"
+		}
+,
+		"6" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-1",
+			"textMsg" : "Rehersal_B-1"
+		}
+,
+		"7" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-2",
+			"textMsg" : "Rehersal_B-2"
+		}
+,
+		"8" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-3",
+			"textMsg" : "Rehersal_B-3"
+		}
+,
+		"9" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-4",
+			"textMsg" : "Rehersal_B-4"
+		}
+,
+		"10" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B-5",
+			"textMsg" : "Rehersal_B-5"
+		}
+
+	}
+,
+	"GloriousAccidents" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A",
+			"textMsg" : "Rehersal_A"
+		}
+,
+		"ensemble" : "GloriousAccidents",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "C",
+			"textMsg" : "Rehersal_C"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "D",
+			"textMsg" : "Rehersal_D"
+		}
+,
+		"5" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "E",
+			"textMsg" : "Rehersal_E"
+		}
+,
+		"6" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "F",
+			"textMsg" : "Rehersal_F"
+		}
+,
+		"7" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "G",
+			"textMsg" : "Rehersal_G"
+		}
+,
+		"8" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Cuttoff"
+		}
+
+	}
+,
+	"Ignorance" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "A",
+			"textMsg" : "Rehersal_A"
+		}
+,
+		"ensemble" : "Ignorance",
+		"2" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "B",
+			"textMsg" : "Rehersal_B"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "C",
+			"textMsg" : "Rehersal_C"
+		}
+,
+		"4" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "D",
+			"textMsg" : "Rehersal_D"
+		}
+
+	}
+,
+	"SplendidTorch" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start",
+			"textMsg" : "Splendid_Torch"
+		}
+,
+		"ensemble" : "SplendidTorch",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+,
+	"Sçay-je" : 	{
+		"1" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start",
+			"textMsg" : "Start_In"
+		}
+,
+		"ensemble" : "Sçayje",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+,
+	"Geometry" : 	{
+		"1" : 		{
+			"frame" : "metro",
+			"countIn" : "0",
+			"duration" : 4,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Start",
+			"textMsg" : "Start_In"
+		}
+,
+		"ensemble" : "",
+		"2" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Stop"
+		}
+
+	}
+
+}

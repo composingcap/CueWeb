@@ -1,0 +1,32 @@
+{
+	"author" : "Cycling '74",
+	"authors" : [  ],
+	"description" : "Max Java Support",
+	"displayname" : "",
+	"extends" : "",
+	"extensible" : 0,
+	"homepatcher" : "",
+	"max_version_max" : "none",
+	"max_version_min" : "7.2.5",
+	"name" : "max-mxj",
+	"os" : 	{
+		"macintosh" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+,
+		"windows" : 		{
+			"platform" : [ "ia32", "x64" ],
+			"min_version" : "none"
+		}
+
+	}
+,
+	"package_extra" : 	{
+
+	}
+,
+	"tags" : [ "java" ],
+	"version" : "7.2.5",
+	"website" : "http://www.cycling74.com"
+}
