@@ -4,6 +4,8 @@
 |  |     |  |  |  | |   __|    \            /   |   __|  |   _  <  
 |  `----.|  `--'  | |  |____    \    /\    /    |  |____ |  |_)  | 
  \______| \______/  |_______|    \__/  \__/     |_______||______/  
+
+
 A node.js and p5.js based cueing system.
 
 CueWeb is made up of three distinct parts:
@@ -14,6 +16,12 @@ CueWeb is made up of three distinct parts:
 This being said: Timing is decentralized and over a network may not be exact.
 
 To run CueWeb open the Max/MSP project inside of max.
+
+===== New Features! ======
+
+-Alert Frame
+-Secondary line of text
+-Ability to resize the interface
 
 ===== Using the EventDesigner ======
 

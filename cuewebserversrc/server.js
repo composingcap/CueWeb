@@ -35,7 +35,7 @@ fromMax.on('message', (osc, rinfo) => {
     console.log("got new ensemble list");
     cueWeb.get('/data/ensemble', function(req, res){
       res.send(ensembleList);
-    });
+    }); 
 
   }
 

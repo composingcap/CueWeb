@@ -3,7 +3,7 @@ var cueWeb;
 var socket; //IO to server
 var squareSide; //Stores the smallest side
 var flag = 'blank'; //Prepends the frame
-
+var alertNumber = 0;
 //Timing vars
 var metroCount = 0; //Counter for metro
 var count= 0; //Counter
@@ -75,27 +75,33 @@ function frameChange(data){
 
   if (data !== undefined){
       console.log(data);
-  if ((data[0] === thisEnsemble) || (thisEnsemble === "global")){
-    nextCue = data[1];
-    frame = data[2];
-    tempo = data[3];
-    countIn = data[4];
-    textMsg = data[6].replace(/_/g , ' ');
-    seq = data.slice(7);
-    cueMarker= 0;
 
-   duration = int(data[5]);
-    //console.log(duration);
-    metroCount = 0;
-    count = 0;
-    }
-  else if (data[0] == "global"){
-    if (data[1] == "clear"){
-      flag = 'blank';
-      frame = 'blank';
+
+    if (data[0] === "_clearAll") {
+        flag = 'blank';
+        frame = 'blank';
+        console.log("cleared");
       }
-  }
-  }
+
+    else if ((data[0] === thisEnsemble) || (thisEnsemble === "global")){
+       alertNumber = 0;
+      textMsg = "none";
+      textMsg2 = "none";
+      nextCue = data[1];
+      frame = data[2];
+      tempo = data[3];
+      countIn = data[4];
+      textMsg = data[6].replace(/_/g , ' ');
+      textMsg2 = data[7].replace(/_/g , ' ');
+      seq = data.slice(8);
+      cueMarker= 0;
+
+     duration = int(data[5]);
+      //console.log(duration);
+      metroCount = 0;
+      count = 0;
+      }
+    }
 }
 
 function setEnsemble(){
@@ -114,6 +120,7 @@ function draw() {
       background(0,0,0);
       if (flag === 'metro') metro(tempo);
       else if (flag ==='text') displayText();
+      else if(flag ==="alert") alert();
       else if (flag === 'blink') blink(250);
       else if (flag === 'countdown'){
         if ((frame === 'metro')||(frame ==='conductor')) metroCountIn(tempo, countIn);
@@ -121,7 +128,7 @@ function draw() {
       }
       else if (flag === 'timer') stopwatch();
       else if (flag === 'conductor') conduct(seq);
-      else count = 0;
+      else {count = 0; background (0);}
 
   }
 
@@ -156,6 +163,8 @@ function countdown(seconds){
     fill(255,0,0);
     stroke(255,255,255);
     text(String(textMsg), width/2, height/5);
+    textSize(squareSide/15);
+    text(String(textMsg2), width/2, 7*height/8);
 
 
     fill(0);
@@ -227,10 +236,19 @@ function metroCountIn(tempo){
 
       return;
     }
+    if (textMsg !== 'none'){
     textSize(squareSide/6);
     fill(255,0,0);
     stroke(255,255,255);
+    strokeWeight(squareSide/60);
     text(String(textMsg), width/2, height/5);
+  }
+  if (textMsg2 !== 'none'){
+    textSize(squareSide/15);
+    strokeWeight(squareSide/150);
+    text(String(textMsg2), width/2, 7*height/8);
+  }
+
   }
 
 function blink(blinkTime){
@@ -245,6 +263,31 @@ function blink(blinkTime){
   }
 
 // Frames
+
+function alert(){
+
+  if (alertNumber < 5){
+    if (count === 0) then = millis();
+    count ++;
+    if (millis() - then <250){
+      background('red');
+      fill('white');
+    }
+    else if (millis() - then <= 500){
+      background("white");
+      fill('red');
+
+    }
+    else{ count = 0;   alertNumber += 1;}
+}
+else{
+  background('red');
+  fill('white');
+}
+textSize(squareSide/6);
+textAlign(CENTER, CENTER);
+text(textMsg, 0, 0, width, height);
+}
 
 function displayText(){
   /*  var now = milis();
