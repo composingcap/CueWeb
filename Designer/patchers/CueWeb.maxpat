@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 25.0, 25.0, 675.0, 675.0 ],
+		"rect" : [ 20.0, 22.0, 675.0, 675.0 ],
 		"bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"editing_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"bglocked" : 0,
@@ -39,6 +39,33 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-36",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1068.0, 174.459106, 56.0, 35.0 ],
+					"style" : "",
+					"text" : ";\rmax quit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-28",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1068.0, 133.0, 65.0, 22.0 ],
+					"style" : "",
+					"text" : "closebang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-97",
 					"maxclass" : "newobj",
@@ -679,7 +706,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 803.5, 110.0, 69.0, 22.0 ],
+					"patching_rect" : [ 858.900208, 133.0, 69.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"allwindowsactive" : 0,
 						"audiosupport" : 1,
@@ -926,7 +953,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 5,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ "Tests b" ]
@@ -946,6 +973,10 @@
 , 											{
 												"key" : 4,
 												"value" : [ "Tests f" ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Tests a" ]
 											}
  ]
 									}
@@ -1869,19 +1900,6 @@
 										"subpatcher_template" : "",
 										"boxes" : [ 											{
 												"box" : 												{
-													"id" : "obj-5",
-													"maxclass" : "message",
-													"numinlets" : 2,
-													"numoutlets" : 1,
-													"outlettype" : [ "" ],
-													"patching_rect" : [ 45.0, 397.0, 300.200012, 22.0 ],
-													"style" : "",
-													"text" : "/Users/Chris/GitHub/CueWeb/"
-												}
-
-											}
-, 											{
-												"box" : 												{
 													"fontname" : "Arial",
 													"fontsize" : 12.0,
 													"id" : "obj-6",
@@ -2498,7 +2516,7 @@
 															"modernui" : 1
 														}
 ,
-														"rect" : [ 75.0, 119.0, 291.0, 302.0 ],
+														"rect" : [ 1430.0, 682.0, 291.0, 302.0 ],
 														"bglocked" : 0,
 														"openinpresentation" : 0,
 														"default_fontsize" : 12.0,
@@ -3312,7 +3330,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 289.200012, 167.300003, 131.0, 22.0 ],
+													"patching_rect" : [ 334.0, 176.300003, 131.0, 22.0 ],
 													"style" : "",
 													"text" : "r APP_PLATEFORM_r"
 												}
@@ -3401,15 +3419,6 @@
 , 											{
 												"patchline" : 												{
 													"destination" : [ "obj-30", 0 ],
-													"order" : 1,
-													"source" : [ "obj-3", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-5", 1 ],
-													"order" : 0,
 													"source" : [ "obj-3", 0 ]
 												}
 
@@ -5150,7 +5159,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -5170,6 +5179,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -5377,7 +5390,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 5,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ "Tests b" ]
@@ -5397,6 +5410,10 @@
 , 											{
 												"key" : 4,
 												"value" : [ "Tests f" ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Tests a" ]
 											}
  ]
 									}
@@ -5566,7 +5583,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -5586,6 +5603,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -5915,7 +5936,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -5935,6 +5956,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -5970,7 +5995,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -5990,6 +6015,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -8148,7 +8177,7 @@
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 5,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ "Tests b" ]
@@ -8168,6 +8197,10 @@
 , 											{
 												"key" : 4,
 												"value" : [ "Tests f" ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Tests a" ]
 											}
  ]
 									}
@@ -8466,7 +8499,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -8486,6 +8519,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -8547,7 +8584,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -8567,6 +8604,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -8867,7 +8908,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -8887,6 +8928,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -9241,7 +9286,7 @@
 , 											{
 												"box" : 												{
 													"coll_data" : 													{
-														"count" : 5,
+														"count" : 6,
 														"data" : [ 															{
 																"key" : 0,
 																"value" : [ "Tests b" ]
@@ -9261,6 +9306,10 @@
 , 															{
 																"key" : 4,
 																"value" : [ "Tests f" ]
+															}
+, 															{
+																"key" : 5,
+																"value" : [ "Tests a" ]
 															}
  ]
 													}
@@ -9662,14 +9711,14 @@
 									"presentation" : 1,
 									"presentation_rect" : [ -1.0, -0.829956, 327.5, 213.0 ],
 									"rowhead" : 1,
-									"rows" : 5
+									"rows" : 6
 								}
 
 							}
 , 							{
 								"box" : 								{
 									"coll_data" : 									{
-										"count" : 5,
+										"count" : 6,
 										"data" : [ 											{
 												"key" : 0,
 												"value" : [ "Tests b" ]
@@ -9689,6 +9738,10 @@
 , 											{
 												"key" : 4,
 												"value" : [ "Tests f" ]
+											}
+, 											{
+												"key" : 5,
+												"value" : [ "Tests a" ]
 											}
  ]
 									}
@@ -11684,7 +11737,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 285.0, 166.0, 60.0, 22.0 ],
+									"patching_rect" : [ 278.0, 183.5, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -12743,7 +12796,6 @@
 											}
 , 											{
 												"box" : 												{
-													"autoscroll" : 0,
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.3 ],
 													"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 													"hint" : "will be displayed in CountIn and Text frames",
@@ -12760,8 +12812,7 @@
 													"presentation_rect" : [ 320.25, 163.082031, 138.0, 18.835938 ],
 													"style" : "",
 													"text" : "none",
-													"varname" : "seq[3]",
-													"wordwrap" : 0
+													"varname" : "seq[3]"
 												}
 
 											}
@@ -12819,7 +12870,6 @@
 											}
 , 											{
 												"box" : 												{
-													"autoscroll" : 0,
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.3 ],
 													"bordercolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 													"hint" : "will be displayed in CountIn and Text frames",
@@ -12836,8 +12886,7 @@
 													"presentation_rect" : [ 320.25, 125.5, 138.0, 21.5 ],
 													"style" : "",
 													"text" : "none",
-													"varname" : "seq[2]",
-													"wordwrap" : 0
+													"varname" : "seq[2]"
 												}
 
 											}
@@ -19080,6 +19129,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-36", 0 ],
+					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-29", 0 ]
 				}
@@ -19206,9 +19262,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ],
+			"obj-35::obj-97::obj-38" : [ "live.text[1]", "live.text", 0 ],
 			"obj-12" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-35::obj-97::obj-38" : [ "live.text[1]", "live.text", 0 ]
+			"obj-35::obj-97::obj-37" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
