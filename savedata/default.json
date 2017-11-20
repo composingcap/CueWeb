@@ -1,0 +1,94 @@
+{
+	"Tests" : 	{
+		"1" : 		{
+			"frame" : "alert",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Alert",
+			"textMsg" : "This_is_an_Alert",
+			"textMsg2" : "none"
+		}
+,
+		"ensemble" : "Test",
+		"2" : 		{
+			"frame" : "metro",
+			"countIn" : 5,
+			"duration" : 5,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Metro",
+			"textMsg" : "Top_Line",
+			"textMsg2" : "Bottom_Line"
+		}
+,
+		"3" : 		{
+			"frame" : "timer",
+			"countIn" : 5,
+			"duration" : 5,
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Timer",
+			"textMsg" : "Top_Line",
+			"textMsg2" : "Bottom_Line"
+		}
+,
+		"4" : 		{
+			"frame" : "conductor",
+			"countIn" : 2,
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "M=1 5 4 3 2 1 M=30 T=300 2 1 4",
+			"lable" : "Conductor",
+			"textMsg" : "Top_Line",
+			"textMsg2" : "Bottom_Line"
+		}
+,
+		"5" : 		{
+			"frame" : "text",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Text",
+			"textMsg" : "Information_is_key_and_this_text_will_wrap",
+			"textMsg2" : "none"
+		}
+,
+		"6" : 		{
+			"frame" : "blink",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "Blink",
+			"textMsg" : "none",
+			"textMsg2" : "none"
+		}
+
+	}
+,
+	"Tests2" : 	{
+		"1" : 		{
+			"frame" : "blank",
+			"countIn" : "0",
+			"duration" : "0",
+			"timeCode" : "seconds",
+			"tempo" : 60,
+			"seq" : "",
+			"lable" : "noLable",
+			"textMsg" : "none",
+			"textMsg2" : "none"
+		}
+,
+		"ensemble" : "Test2"
+	}
+
+}
