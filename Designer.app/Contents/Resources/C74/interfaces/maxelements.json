@@ -1,4 +1,4 @@
-{ "maxelements" : 
+{ "maxelements" :
 	[
 	{
 		"class" : "transactions",
@@ -154,7 +154,63 @@
         {
 			"id" : "embedsnapshot",
 			"label" : "Embed Snapshot"
-		}         
+		},
+		{
+			"id" : "parameterbanks_state",
+			"label" : "Parameter Bank Edit"
+		},
+		{
+			"id" : "boxgroup_create",
+			"label" : "Group Objects"
+		},
+		{
+			"id" : "boxgroup_create_wrapper",
+			"label" : "Group Objects"
+		},
+		{
+			"id" : "boxgroup_delete",
+			"label" : "Ungroup Objects"
+		},
+		{
+			"id" : "boxgroup_delete_wrapper",
+			"label" : "Ungroup Objects"
+		},
+		{
+			"id" : "boxgroup_append",
+			"label" : "Append to Group"
+		},
+		{
+			"id" : "boxgroup_remove",
+			"label" : "Remove from Group"
+		},
+		{
+			"id" : "mapping_state",
+			"label" : "Edit Mappings"
+		},
+		{
+			"id" : "mapping_update",
+			"label" : "Edit Mapping"
+		},
+		{
+			"id" : "mapping_update_wrapper",
+			"label" : "Edit Mappings"
+		},
+		{
+			"id" : "mapping_delete",
+			"label" : "Delete Mapping"
+		},
+		{
+			"id" : "mapping_delete_wrapper",
+			"label" : "Delete Mappings"
+		},
+		{
+			"id" : "mapping_create",
+			"label" : "Add Mapping"
+		},
+		{
+			"id" : "mapping_create_wrapper",
+			"label" : "Add Mapping"
+		}
 		]
 	},
 	{

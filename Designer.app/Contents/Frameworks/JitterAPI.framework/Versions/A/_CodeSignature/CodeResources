@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		8UrgUvHODOSBQFuKQS5aaCCnjXs=
+		2eFrgtuTgtE4K3X1Q0LrqHhw3bc=
 		</data>
 		<key>Resources/JitterAPI.rsrc</key>
 		<data>
@@ -16,13 +16,27 @@
 	<key>files2</key>
 	<dict>
 		<key>Resources/Info.plist</key>
-		<data>
-		8UrgUvHODOSBQFuKQS5aaCCnjXs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			2eFrgtuTgtE4K3X1Q0LrqHhw3bc=
+			</data>
+			<key>hash2</key>
+			<data>
+			mQps6k1gRojstPylIUQxSUnJo+Iyo7XONl+YNnx0xX0=
+			</data>
+		</dict>
 		<key>Resources/JitterAPI.rsrc</key>
-		<data>
-		+SQsHo/F0dqMqL+R5XNWkAzPyAo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			+SQsHo/F0dqMqL+R5XNWkAzPyAo=
+			</data>
+			<key>hash2</key>
+			<data>
+			ADZ+P4rzhL3tGq5w87rgqSQt5WIi1g4f10G+fF+z2xw=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

@@ -100,3 +100,4 @@ max objectfile jit.playlist playlist jit.playlist;
 max objectfile jit.qt.movie jit.movie;
 max objectfile jit.qt.record jit.record;
 max objectfile jit.qt.grab jit.grab;
+max objectfile jit.gl.layer jit.gl.videoplane;

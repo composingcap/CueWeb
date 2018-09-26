@@ -55,4 +55,6 @@ max objectfile zl.change zl;
 max objectfile zl.compare zl;
 max objectfile zl.thin zl;
 max objectfile zl.filter zl;
+max objectfile zl.swap zl;
+max objectfile zl.indexmap zl;
 max objectfile dsp_delay dsp_delay delay;

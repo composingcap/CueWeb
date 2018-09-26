@@ -27,6 +27,7 @@ uniform vec2 offset;
 uniform vec2 origin;
 uniform float div;  
 uniform sampler2DRect tex0;
+
 const float pi=3.1415926;
 
 void main()

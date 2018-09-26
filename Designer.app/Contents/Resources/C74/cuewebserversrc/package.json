@@ -1,0 +1,22 @@
+{
+  "name": "cuewebserver",
+  "version": "0.0.1",
+  "description": "Sends cues to web devices",
+  "bin": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Christopher Poovey",
+  "license": "",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "exit": "^0.1.2",
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  },
+	"pkg": {
+    "scripts": "build/**/*.js",
+		"assets" : "public/**/*"
+	}
+}

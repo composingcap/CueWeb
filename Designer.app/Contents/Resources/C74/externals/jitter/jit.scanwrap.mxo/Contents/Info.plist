@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>14F27</string>
+	<string>15G31</string>
 	<key>C74ObjectProperties</key>
 	<dict>
 		<key>c74factoryexternal</key>
@@ -16,30 +16,34 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleLongVersionString</key>
-	<string>jit.scanwrap 7.3.4 (build de5a74a), Copyright 2014 Cycling '74</string>
+	<string>jit.scanwrap 8.0.0 (build bcdbf35), Copyright 2014 Cycling '74</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>7.3.4 (de5a74a)</string>
+	<string>8.0.0 (bcdbf35)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>7.3.4</string>
+	<string>8.0.0</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>6A1052d</string>
+	<string>8C1002</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>14A382</string>
+	<string>14D125</string>
 	<key>DTSDKName</key>
 	<string>macosx10.10</string>
 	<key>DTXcode</key>
-	<string>0610</string>
+	<string>0821</string>
 	<key>DTXcodeBuild</key>
-	<string>6A1052d</string>
+	<string>8C1002</string>
 </dict>
 </plist>

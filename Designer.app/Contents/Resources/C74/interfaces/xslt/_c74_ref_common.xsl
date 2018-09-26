@@ -125,13 +125,14 @@
 
         <xsl:apply-templates select="mop"/>
 
-        <xsl:if test="(attributelist and count(attributelist/attribute) &gt; 0) or $isbox=1 or OB3D or snapshot">
+        <xsl:if test="(attributelist and count(attributelist/attribute) &gt; 0) or $isbox=1 or OB3D or snapshot or mcwrapper">
           <section class="attribute_section">
             <h2>Attributes</h2>
             <xsl:apply-templates select="attributelist"/>
             <xsl:call-template name="jboxattrs"/>
             <xsl:call-template name="OB3Dattrs"/>
             <xsl:call-template name="snapshotattrs"/>
+            <xsl:call-template name="mcwrapperattrs"/>
             <xsl:apply-templates select="parameter" />
           </section>
         </xsl:if>
@@ -140,12 +141,13 @@
         <xsl:apply-templates select="apiinletlist"/>
         <xsl:apply-templates select="apioutletlist"/>
 
-        <xsl:if test="(methodlist and count(methodlist/method) &gt; 0) or OB3D or snapshot">
+        <xsl:if test="(methodlist and count(methodlist/method) &gt; 0) or OB3D or snapshot or mcwrapper">
           <section class="method_section">
             <h2>Messages</h2>
             <xsl:apply-templates select="methodlist"/>
             <xsl:call-template name="OB3Dmethods"/>
             <xsl:call-template name="snapshotmethods"/>
+            <xsl:call-template name="mcwrappermethods"/>
           </section>
         </xsl:if>
 
@@ -384,6 +386,29 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="mcwrappermethods">
+    <xsl:if test="/c74object/mcwrapper">
+      <xsl:variable name="docpath">
+        <xsl:choose>
+          <xsl:when test="document(concat($factorydir,'msp-ref/mcwrapper-group.maxref.xml'))/c74object/@name">
+            <xsl:value-of select="concat($factorydir,'msp-ref/mcwrapper-group.maxref.xml')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($factorydir,'max-ref/jbogus.maxref.xml')"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <div class="disclosure open">
+        <h3>Multichannel Group Messages</h3>
+        <div class="disclosure_body">
+          <xsl:for-each select="document($docpath)/c74object/methodlist/method">
+            <xsl:call-template name="generate_method" />
+          </xsl:for-each>
+        </div>
+      </div>
+    </xsl:if>
+  </xsl:template>
+
 <!--
       Attributes
       -->
@@ -442,9 +467,9 @@
                   <xsl:value-of select="position() - 1"/> = '<xsl:value-of select="normalize-space(@name)"/>'
                 </xsl:otherwise>
               </xsl:choose>
-              <xsl:if test="digest and normalize-space(digest) != '' and normalize-space(digest) != 'TEXT_HERE'"> (<xsl:value-of select="digest"/>)</xsl:if>
+              <xsl:if test="digest and normalize-space(digest) != '' and normalize-space(digest) != 'TEXT_HERE'"> (<xsl:apply-templates select="digest"/>)</xsl:if>
               <xsl:if test="description and normalize-space(description) != '' and normalize-space(description) != 'TEXT_HERE'">
-                <br/><xsl:value-of select="description"/><br/>
+                <br/><xsl:apply-templates select="description"/><br/>
               </xsl:if>
             </xsl:for-each>
           </xsl:if>
@@ -579,6 +604,29 @@
     </xsl:if>
   </xsl:template>
 
+  <xsl:template name="mcwrapperattrs">
+    <xsl:if test="/c74object/mcwrapper">
+      <xsl:variable name="docpath">
+        <xsl:choose>
+          <xsl:when test="document(concat($factorydir,'msp-ref/mcwrapper-group.maxref.xml'))/c74object/@name">
+            <xsl:value-of select="concat($factorydir,'msp-ref/mcwrapper-group.maxref.xml')"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="concat($factorydir,'max-ref/jbogus.maxref.xml')"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <div class="disclosure open">
+        <h3>Multichannel Group Attributes</h3>
+        <div class="disclosure_body">
+          <xsl:for-each select="document($docpath)/c74object/attributelist/attribute">
+            <xsl:call-template name="generate_attribute" />
+          </xsl:for-each>
+        </div>
+      </div>
+    </xsl:if>
+  </xsl:template>
+
   <xsl:template name="generate_entry">
     <div class="entry_group">
       <h3 class="entry_name">
@@ -690,7 +738,7 @@
       Arguments (methods)
       -->
   <xsl:template match="arglist">
-    <xsl:if test="count(arg)">
+    <xsl:if test="count(arg) and not(starts-with(arg[1]/@name, 'ARG_NAME_'))">
       <h4>Arguments</h4>
       <div class="arguments">
         <xsl:for-each select="*">

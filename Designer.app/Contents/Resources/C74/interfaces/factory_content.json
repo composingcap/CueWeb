@@ -8,35 +8,35 @@
           "name": "effects",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/effects\""
+            "path:\"Max 8/Examples/effects\""
           ]
         },
         {
           "name": "fft-fun",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/fft-fun\""
+            "path:\"Max 8/Examples/fft-fun\""
           ]
         },
         {
           "name": "filters",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/filters\""
+            "path:\"Max 8/Examples/filters\""
           ]
         },
         {
           "name": "gen",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/gen\""
+            "path:\"Max 8/Examples/gen\""
           ]
         },
         {
           "name": "interface",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/interface\""
+            "path:\"Max 8/Examples/interface\""
           ]
         },
         {
@@ -47,77 +47,84 @@
               "name": "dict",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/dict\""
+                "path:\"Max 8/Examples/javascript/dict\""
               ]
             },
             {
               "name": "file",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/file\""
+                "path:\"Max 8/Examples/javascript/file\""
               ]
             },
             {
               "name": "jspainter",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/jspainter\""
+                "path:\"Max 8/Examples/javascript/jspainter\""
               ]
             },
             {
               "name": "jsrequire",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/jsrequire\""
+                "path:\"Max 8/Examples/javascript/jsrequire\""
               ]
             },
             {
               "name": "lists+strings",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/lists+strings\""
+                "path:\"Max 8/Examples/javascript/lists+strings\""
               ]
             },
             {
               "name": "math",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/math\""
+                "path:\"Max 8/Examples/javascript/math\""
               ]
             },
             {
               "name": "patcher-scripting",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/patcher-scripting\""
+                "path:\"Max 8/Examples/javascript/patcher-scripting\""
               ]
             },
             {
               "name": "simulation",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/simulation\""
+                "path:\"Max 8/Examples/javascript/simulation\""
+              ]
+            },
+            {
+              "name": "snapshots",
+              "type": "query",
+              "contents": [
+                "path:\"Max 8/Examples/javascript/snapshots\""
               ]
             },
             {
               "name": "ui",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/ui\""
+                "path:\"Max 8/Examples/javascript/ui\""
               ]
             },
             {
               "name": "ui-canvas",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/ui-canvas\""
+                "path:\"Max 8/Examples/javascript/ui-canvas\""
               ]
             },
             {
               "name": "ui-mgraphics",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/javascript/ui-mgraphics\""
+                "path:\"Max 8/Examples/javascript/ui-mgraphics\""
               ]
             }
           ]
@@ -130,35 +137,35 @@
               "name": "3rd_Party",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/3rd_Party\""
+                "path:\"Max 8/Examples/jitter-examples/3rd_Party\""
               ]
             },
             {
               "name": "audio",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/audio\""
+                "path:\"Max 8/Examples/jitter-examples/audio\""
               ]
             },
             {
               "name": "demos",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/demos\""
+                "path:\"Max 8/Examples/jitter-examples/demos\""
               ]
             },
             {
               "name": "gen",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/gen\""
+                "path:\"Max 8/Examples/jitter-examples/gen\""
               ]
             },
             {
               "name": "java",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/java\""
+                "path:\"Max 8/Examples/jitter-examples/java\""
               ]
             },
             {
@@ -169,35 +176,35 @@
                   "name": "matrix",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/javascript/matrix\""
+                    "path:\"Max 8/Examples/jitter-examples/javascript/matrix\""
                   ]
                 },
                 {
                   "name": "other",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/javascript/other\""
+                    "path:\"Max 8/Examples/jitter-examples/javascript/other\""
                   ]
                 },
                 {
-                  "name": "js-render",
+                  "name": "render",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/javascript/render\""
+                    "path:\"Max 8/Examples/jitter-examples/javascript/render\""
                   ]
                 },
                 {
                   "name": "ui",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/javascript/ui\""
+                    "path:\"Max 8/Examples/jitter-examples/javascript/ui\""
                   ]
                 },
                 {
                   "name": "video",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/javascript/video\""
+                    "path:\"Max 8/Examples/jitter-examples/javascript/video\""
                   ]
                 }
               ]
@@ -206,28 +213,28 @@
               "name": "materials",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/materials\""
+                "path:\"Max 8/Examples/jitter-examples/materials\""
               ]
             },
             {
               "name": "other",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/other\""
+                "path:\"Max 8/Examples/jitter-examples/other\""
               ]
             },
             {
               "name": "overview",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/overview\""
+                "path:\"Max 8/Examples/jitter-examples/overview\""
               ]
             },
             {
               "name": "render",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/jitter-examples/render\""
+                "path:\"Max 8/Examples/jitter-examples/render\""
               ]
             },
             {
@@ -238,63 +245,63 @@
                   "name": "analysis",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/analysis\""
+                    "path:\"Max 8/Examples/jitter-examples/video/analysis\""
                   ]
                 },
                 {
                   "name": "color",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/color\""
+                    "path:\"Max 8/Examples/jitter-examples/video/color\""
                   ]
                 },
                 {
                   "name": "keying",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/keying\""
+                    "path:\"Max 8/Examples/jitter-examples/video/keying\""
                   ]
                 },
                 {
                   "name": "matrix",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/matrix\""
+                    "path:\"Max 8/Examples/jitter-examples/video/matrix\""
                   ]
                 },
                 {
                   "name": "misc",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/misc\""
+                    "path:\"Max 8/Examples/jitter-examples/video/misc\""
                   ]
                 },
                 {
                   "name": "op",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/op\""
+                    "path:\"Max 8/Examples/jitter-examples/video/op\""
                   ]
                 },
                 {
                   "name": "quicktime",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/quicktime\""
+                    "path:\"Max 8/Examples/jitter-examples/video/quicktime\""
                   ]
                 },
                 {
                   "name": "spatial",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/spatial\""
+                    "path:\"Max 8/Examples/jitter-examples/video/spatial\""
                   ]
                 },
                 {
                   "name": "uyvy",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/jitter-examples/video/uyvy\""
+                    "path:\"Max 8/Examples/jitter-examples/video/uyvy\""
                   ]
                 }
               ]
@@ -309,7 +316,7 @@
               "name": "5-point-1-fun",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/5-point-1-fun\""
+                "path:\"Max 8/Examples/legacy-examples/5-point-1-fun\""
               ]
             },
             {
@@ -320,14 +327,14 @@
                   "name": "reverb",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/legacy-examples/effects/reverb\""
+                    "path:\"Max 8/Examples/legacy-examples/effects/reverb\""
                   ]
                 },
                 {
                   "name": "signal-limiter",
                   "type": "query",
                   "contents": [
-                    "path:\"Max 7/Examples/legacy-examples/effects/signal-limiter\""
+                    "path:\"Max 8/Examples/legacy-examples/effects/signal-limiter\""
                   ]
                 }
               ]
@@ -336,35 +343,35 @@
               "name": "modsquad-history",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/modsquad-history\""
+                "path:\"Max 8/Examples/legacy-examples/modsquad-history\""
               ]
             },
             {
               "name": "old-school-fft",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/old-school-fft\""
+                "path:\"Max 8/Examples/legacy-examples/old-school-fft\""
               ]
             },
             {
               "name": "recycler-folder",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/recycler-folder\""
+                "path:\"Max 8/Examples/legacy-examples/recycler-folder\""
               ]
             },
             {
               "name": "repeated notes",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/repeated notes\""
+                "path:\"Max 8/Examples/legacy-examples/repeated notes\""
               ]
             },
             {
               "name": "synths",
               "type": "query",
               "contents": [
-                "path:\"Max 7/Examples/legacy-examples/synths\""
+                "path:\"Max 8/Examples/legacy-examples/synths\""
               ]
             }
           ]
@@ -373,49 +380,56 @@
           "name": "max-tricks",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/max-tricks\""
+            "path:\"Max 8/Examples/max-tricks\""
+          ]
+        },
+        {
+          "name": "mc",
+          "type": "query",
+          "contents": [
+            "path:\"Max 8/Examples/mc\""
           ]
         },
         {
           "name": "pitch and time",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/pitch and time\""
+            "path:\"Max 8/Examples/pitch and time\""
           ]
         },
         {
           "name": "sampling",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/sampling\""
+            "path:\"Max 8/Examples/sampling\""
           ]
         },
         {
           "name": "sequencing-looping",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/sequencing-looping\""
+            "path:\"Max 8/Examples/sequencing-looping\""
           ]
         },
         {
           "name": "spatialization",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/spatialization\""
+            "path:\"Max 8/Examples/spatialization\""
           ]
         },
         {
           "name": "synths",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/synths\""
+            "path:\"Max 8/Examples/synths\""
           ]
         },
         {
           "name": "utilities",
           "type": "query",
           "contents": [
-            "path:\"Max 7/Examples/utilities\""
+            "path:\"Max 8/Examples/utilities\""
           ]
         }
       ]

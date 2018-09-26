@@ -26,11 +26,11 @@ uniform vec4 inoffset;
 uniform vec4 outscale;
 uniform vec4 outoffset;
 
-uniform sampler2DRect texture;
+uniform sampler2DRect tex0;
 
 void main( void )
 {
-	vec4 v0 = texture2DRect(texture, texcoord0);
+	vec4 v0 = texture2DRect(tex0, texcoord0);
 	
 	v0 = (v0*inscale)+inoffset;	
 	vec4 result = sign(v0);

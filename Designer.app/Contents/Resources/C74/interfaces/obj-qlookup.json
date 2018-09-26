@@ -109,6 +109,13 @@
       "Control"
     ]
   },
+  "chooser": {
+    "digest": "TEXT_HERE",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
   "closebang": {
     "digest": "Send a bang on close",
     "module": "max",
@@ -563,6 +570,13 @@
       "System"
     ]
   },
+  "project": {
+    "digest": "TEXT_HERE",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
   "pvar": {
     "digest": "Connect to a named object in a patcher",
     "module": "max",
@@ -691,6 +705,13 @@
     "module": "max",
     "category": [
       "MIDI"
+    ]
+  },
+  "themecolor": {
+    "digest": "Change and/or listen for changes in interface colors",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
     ]
   },
   "thispatcher": {
@@ -995,6 +1016,13 @@
     "module": "max",
     "category": [
       "Files"
+    ]
+  },
+  "console": {
+    "digest": "Console Output in Patcher",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
     ]
   },
   "cos": {
@@ -1638,6 +1666,38 @@
       "Devices"
     ]
   },
+  "mc.function": {
+    "digest": "Breakpoint function editor",
+    "module": "max",
+    "category": [
+      "U/I"
+    ],
+    "palette": {
+      "category": [
+        "Data",
+        "Audio"
+      ],
+      "action": "function",
+      "pic": "function.svg"
+    }
+  },
+  "mc.getattr": {
+    "digest": "Query object attributes (multichannel)",
+    "module": "max",
+    "category": [
+      "Control",
+      "Multichannel"
+    ]
+  },
+  "mc.line": {
+    "digest": "Generate timed ramp (multichannel)",
+    "module": "max",
+    "category": [
+      "Data",
+      "Timing",
+      "Multichannel"
+    ]
+  },
   "mean": {
     "digest": "Calculate a running average",
     "module": "max",
@@ -1710,7 +1770,7 @@
     ]
   },
   "movie": {
-    "digest": "Play a QuickTime movie in a window",
+    "digest": "Play a movie in a window",
     "module": "max",
     "category": [
       "U/I"
@@ -1749,6 +1809,13 @@
     "module": "max",
     "category": [
       "Sequencing"
+    ]
+  },
+  "multirange": {
+    "digest": "Graphical function breakpoint editor",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
     ]
   },
   "multislider": {
@@ -1794,6 +1861,20 @@
       "action": "nodes",
       "pic": "nodes.svg"
     }
+  },
+  "nrpnin": {
+    "digest": "Output received NRPN values",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
+  },
+  "nrpnout": {
+    "digest": "Format 14-bit MIDI NRPN messages",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
   },
   "nslider": {
     "digest": "Output numbers from a notation display",
@@ -2121,6 +2202,20 @@
     "module": "max",
     "category": [
       "Control"
+    ]
+  },
+  "rpnin": {
+    "digest": "Output received RPN values",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
+  },
+  "rpnout": {
+    "digest": "Format 14-bit MIDI RPN messages",
+    "module": "max",
+    "category": [
+      "MIDI"
     ]
   },
   "rslider": {
@@ -2547,6 +2642,13 @@
       "Math"
     ]
   },
+  "vstscan": {
+    "digest": "Audio Plugin Scanner",
+    "module": "Max",
+    "category": [
+      "Plug-ins"
+    ]
+  },
   "when": {
     "digest": "Report the current transport time",
     "module": "max",
@@ -2583,6 +2685,20 @@
       "MIDI"
     ],
     "alias": "xbendout"
+  },
+  "xctlin": {
+    "digest": "Output received 14-bit MIDI control values",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
+  },
+  "xctlout": {
+    "digest": "Format 14-bit MIDI controller messages",
+    "module": "max",
+    "category": [
+      "MIDI"
+    ]
   },
   "xnotein": {
     "digest": "Interpret MIDI note messages with release velocity",
@@ -2837,6 +2953,22 @@
     ],
     "alias": "zl"
   },
+  "zl.swap": {
+    "digest": "Process lists in many ways",
+    "module": "max",
+    "category": [
+      "Lists"
+    ],
+    "alias": "zl"
+  },
+  "zl.indexmap": {
+    "digest": "Process lists in many ways",
+    "module": "max",
+    "category": [
+      "Lists"
+    ],
+    "alias": "zl"
+  },
   "zmap": {
     "digest": "Maps input range of values to output range",
     "module": "max",
@@ -2960,14 +3092,16 @@
     "digest": "Multi-mode signal average",
     "module": "msp",
     "category": [
-      "MSP Operators"
+      "MSP Operators",
+      "MSP Analysis"
     ]
   },
   "avg~": {
     "digest": "Signal average",
     "module": "msp",
     "category": [
-      "MSP Operators"
+      "MSP Operators",
+      "MSP Analysis"
     ]
   },
   "begin~": {
@@ -3046,6 +3180,14 @@
     "category": [
       "MSP Analysis"
     ]
+  },
+  "mc.capture~": {
+    "digest": "Store a signal to view as text",
+    "module": "msp",
+    "category": [
+      "MSP Analysis"
+    ],
+    "alias": "capture~"
   },
   "cartopol~": {
     "digest": "Signal Cartesian to Polar coordinate conversion",
@@ -3268,6 +3410,14 @@
       "MSP Filters"
     ]
   },
+  "mcs.fffb~": {
+    "digest": "Fast fixed filter bank",
+    "module": "msp",
+    "category": [
+      "MSP Filters"
+    ],
+    "alias": "fffb~"
+  },
   "fftinfo~": {
     "digest": "Report information about a patcher loaded by pfft~",
     "module": "msp",
@@ -3359,6 +3509,20 @@
       "MSP FFT"
     ]
   },
+  "framesnap~": {
+    "digest": "Output a list as an FFT frame or signal vector",
+    "module": "msp",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "frame~": {
+    "digest": "Output a list as an FFT frame or a signal vector",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
   "freqshift~": {
     "digest": "Time-domain frequency shifter",
     "module": "msp",
@@ -3396,11 +3560,34 @@
       "pic": "gain~.svg"
     }
   },
+  "mc.multigain~": {
+    "digest": "Gain control",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "action": "gain~",
+      "category": [
+        "Sliders",
+        "Audio"
+      ],
+      "pic": "gain~.svg"
+    },
+    "alias": "gain~"
+  },
   "gate~": {
     "digest": "Route a signal to one of several outlets",
     "module": "msp",
     "category": [
       "MSP Routing"
+    ]
+  },
+  "gen": {
+    "digest": "Generate native audio event processing routines",
+    "module": "msp",
+    "category": [
+      "Max Code Generation"
     ]
   },
   "gen~": {
@@ -3429,6 +3616,13 @@
     "module": "msp",
     "category": [
       "MSP Operators"
+    ]
+  },
+  "gridmeter~": {
+    "digest": "Display signal levels as brightness",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
     ]
   },
   "groove~": {
@@ -3543,6 +3737,21 @@
       "pic": "levelmeter~.svg"
     }
   },
+  "mc.levelmeter~": {
+    "digest": "RMS level meter",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "category": [
+        "Audio"
+      ],
+      "action": "levelmeter~",
+      "pic": "levelmeter~.svg"
+    },
+    "alias": "levelmeter~"
+  },
   "line~": {
     "digest": "Linear ramp generator",
     "module": "msp",
@@ -3578,6 +3787,14 @@
       "MSP Routing"
     ]
   },
+  "mcs.matrix~": {
+    "digest": "Signal routing and mixing matrix",
+    "module": "msp",
+    "category": [
+      "MSP Routing"
+    ],
+    "alias": "matrix~"
+  },
   "maximum~": {
     "digest": "Compare two signals, output the maximum",
     "module": "msp",
@@ -3585,6 +3802,1632 @@
       "MSP Analysis",
       "MSP Modifiers"
     ]
+  },
+  "mc.2d.wave~": {
+    "digest": "Two-dimensional wavetable (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Sampling",
+      "Multichannel"
+    ]
+  },
+  "mc.abs~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.acosh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.acos~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.adc~": {
+    "digest": "Multichannel audio input and on/off",
+    "module": "msp",
+    "category": [
+      "MSP I/O"
+    ]
+  },
+  "mc.adsr~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.allpass~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.amxd~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.asinh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.asin~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.atanh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.atan~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.atodb~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.average~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.avg~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.biquad~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.bitand~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.bitnot~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.bitor~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.bitsafe~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.bitxor~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.buffir~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cartopol~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cascade~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cell": {
+    "digest": "Format messages from a jit.cellblock for use with MC objects",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.change~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.channelcount~": {
+    "digest": "Report channel count",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.click~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.clip~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.combine~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.comb~": {
+    "digest": "Apply a comb filter effect (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Filters",
+      "Multichannel"
+    ]
+  },
+  "mc.cosh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cosx~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cos~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.count~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cross~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.curve~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.cycle~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.dac~": {
+    "digest": "Multichannel audio output and on/off",
+    "module": "msp",
+    "category": [
+      "MSP I/O"
+    ]
+  },
+  "mc.dbtoa~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.degrade~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.deinterleave~": {
+    "digest": "Deinterleave a multichannel audio signal",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.delay~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.deltaclip~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.delta~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc./~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.downsamp~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.dup~": {
+    "digest": "Create a multichannel signal that duplicates a single-channel input",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.edge~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.==~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.evolve~": {
+    "digest": "Generate a periodic multichannel function from breakpoint ranges",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.ezadc~": {
+    "digest": "Audio input and on/off button",
+    "module": "msp",
+    "category": [
+      "MSP I/O",
+      "MSP U/I"
+    ]
+  },
+  "mc.ezdac~": {
+    "digest": "Audio output and on/off button",
+    "module": "msp",
+    "category": [
+      "MSP I/O",
+      "MSP U/I"
+    ]
+  },
+  "mc.fffb~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.fft~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.filtercoeff~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.frameaccum~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.frameaverage~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.framedelta~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.framesmooth~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.freqshift~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.ftom~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.fzero~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.gain~": {
+    "digest": "Multichannel gain control",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ]
+  },
+  "mc.gate~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.gen~": {
+    "digest": "Generate native audio signal processing routines (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Code Generation",
+      "Multichannel"
+    ]
+  },
+  "mc.gradient~": {
+    "digest": "Generate a time-varying function over the space of a multichannel signal",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.>=~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.>~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.groove~": {
+    "digest": "Variable-rate looping sample playback (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Sampling",
+      "Multichannel"
+    ]
+  },
+  "mc.hilbert~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.index~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.interleave~": {
+    "digest": "Interleave two or more multichannel signals",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.kink~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.<=~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.<~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.line~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.list~": {
+    "digest": "Create a multichannel signal from a list of values",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.log~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.lookup~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.lores~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.makelist": {
+    "digest": "Create a list from non-signal output of MC objects",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.matrix~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.maximum~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.minimum~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.minmax~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.-~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.mixdown~": {
+    "digest": "Mix and pan a multichannel signal",
+    "module": "msp",
+    "category": [
+      "mc",
+      "msp",
+      "msp system"
+    ]
+  },
+  "mc.%~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.mstosamps~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.mtof~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.noise~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.normalize~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.noteallocator~": {
+    "digest": "Manage voice numbers for MIDI note events",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.!=~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.number~": {
+    "digest": "Multichannel signal monitor and constant generator",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "category": [
+        "Audio"
+      ],
+      "action": "number~",
+      "pic": "number~.svg"
+    }
+  },
+  "mc.omx.4band~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.omx.5band~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.omx.comp~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.omx.peaklim~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.onepole~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.op~": {
+    "digest": "Apply arithmetic operators to a multichannel signal",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.overdrive~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pack~": {
+    "digest": "Combine inputs into a multichannel signal",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.peakamp~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.peek~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pfft~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.phaseshift~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.phasewrap~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.phasor~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pink~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pitchshift~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.playlist~": {
+    "digest": "Play sound files with multichannel output",
+    "module": "msp",
+    "category": [
+      "U/I"
+    ],
+    "palette": {
+      "category": [
+        "Data",
+        "Audio"
+      ],
+      "action": "plot~",
+      "pic": "plot~.svg"
+    }
+  },
+  "mc.play~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.+=~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.+~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.atan2~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.div~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.equals~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.greaterthan~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.greaterthaneq~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.jit.peek~": {
+    "digest": "Read matrix data as an audio signal (multichannel)",
+    "module": "jit",
+    "category": [
+      "Jitter Audio",
+      "Multichannel"
+    ]
+  },
+  "mc.lessthan~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.lessthaneq~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.minus~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.modulo~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.notequals~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.plus~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.plusequals~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.poltocar~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pong~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.pow~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rampsmooth~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rand~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rate~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.!/~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rdiv~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rect~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.reson~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.retune~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.!-~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.rminus~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.round~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sah~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sampstoms~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.saw~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.scale~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.selector~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.seq~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sig~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sinh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sinx~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.slide~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.snapshot~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.spike~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sqrt~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.stutter~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.svf~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.sync~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.tanh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.tanx~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.teeth~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.thresh~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.*~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ]
+  },
+  "mc.times~": {
+    "digest": "Multiply two signals (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Operators",
+      "Multichannel"
+    ],
+    "alias": "mc.*~"
+  },
+  "mc.train~": {
+    "digest": "Pulse train generator (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Synthesis",
+      "Multichannel"
+    ]
+  },
+  "mc.trapezoid~": {
+    "digest": "Trapezoidal wavetable (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Functions",
+      "Multichannel"
+    ]
+  },
+  "mc.triangle~": {
+    "digest": "Triangle/ramp wavetable (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Functions",
+      "Multichannel"
+    ]
+  },
+  "mc.tri~": {
+    "digest": "Antialiased triangular oscillator (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Synthesis",
+      "Multichannel"
+    ]
+  },
+  "mc.trunc~": {
+    "digest": "Truncate fractional signal values (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Modifiers",
+      "Multichannel"
+    ]
+  },
+  "mc.vectral~": {
+    "digest": "Vector-based envelope follower (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP FFT",
+      "Multichannel"
+    ]
+  },
+  "mc.vst~": {
+    "digest": "Host VST, VST3 and Audio Unit plug-ins (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Plug-ins",
+      "Multichannel"
+    ]
+  },
+  "mc.wave~": {
+    "digest": "Variable size wavetable (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Sampling",
+      "Multichannel"
+    ]
+  },
+  "mc.zerox~": {
+    "digest": "Detect zero crossings (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Analysis",
+      "Multichannel"
+    ]
+  },
+  "mc.zigzag~": {
+    "digest": "Linked list function editor (multichannel)",
+    "module": "msp",
+    "category": [
+      "MSP Functions",
+      "Multichannel"
+    ]
+  },
+  "mc.range~": {
+    "digest": "Generate a multichannel signal with a range of constant values",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.resize~": {
+    "digest": "Resize a multichannel signal",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.route": {
+    "digest": "Direct output of messages based on an index received",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.separate~": {
+    "digest": "Split a multichannel signal",
+    "module": "msp",
+    "category": [
+      "mc",
+      "msp",
+      "msp system"
+    ]
+  },
+  "mc.stereo~": {
+    "digest": "TEXT_HERE",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.target": {
+    "digest": "Format messages to control MC objects",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.input": {
+    "digest": "Format messages to control MC objects",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ],
+    "alias": "mc.target"
+  },
+  "mc.targetlist": {
+    "digest": "Format messages based on inlet number for controlling MC objects",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.transpose~": {
+    "digest": "Reorganize multichannel signals",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.unpack~": {
+    "digest": "Split a multichannel signal into single-channel signals",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
+  },
+  "mc.voiceallocator~": {
+    "digest": "Manage voice numbers for events",
+    "module": "MissingModule",
+    "category": [
+      "MC"
+    ]
+  },
+  "MC Wrapper Features": {
+    "digest": "Messages and attributes common to MC wrapper objects",
+    "module": "msp",
+    "category": [
+      "Unlisted"
+    ],
+    "private": 1
   },
   "meter~": {
     "digest": "Visual peak level indicator",
@@ -3599,6 +5442,21 @@
       "action": "meter~",
       "pic": "meter~.svg"
     }
+  },
+  "mc.meter~": {
+    "digest": "Visual peak level indicator",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "category": [
+        "Audio"
+      ],
+      "action": "meter~",
+      "pic": "meter~.svg"
+    },
+    "alias": "meter~"
   },
   "minimum~": {
     "digest": "Compare two signals, output the minimum",
@@ -3842,6 +5700,14 @@
       "MSP Sampling"
     ]
   },
+  "mcs.play~": {
+    "digest": "Position-based sample playback",
+    "module": "msp",
+    "category": [
+      "MSP Sampling"
+    ],
+    "alias": "play~"
+  },
   "plot~": {
     "digest": "Visualize two-dimensional data",
     "module": "msp",
@@ -3864,6 +5730,14 @@
       "MSP Plug-ins"
     ]
   },
+  "mc.plugin~": {
+    "digest": "Define a Max for Live device's audio inputs",
+    "module": "msp",
+    "category": [
+      "MSP Plug-ins"
+    ],
+    "alias": "plugin~"
+  },
   "plugout~": {
     "digest": "Define a Max for Live Device's audio outputs",
     "module": "msp",
@@ -3871,12 +5745,28 @@
       "MSP Plug-ins"
     ]
   },
+  "mc.plugout~": {
+    "digest": "Define a Max for Live Device's audio outputs",
+    "module": "msp",
+    "category": [
+      "MSP Plug-ins"
+    ],
+    "alias": "plugout~"
+  },
   "plugphasor~": {
     "digest": "Host-synchronized sawtooth wave",
     "module": "msp",
     "category": [
       "MSP Plug-ins"
     ]
+  },
+  "mc.plugphasor~": {
+    "digest": "Host-synchronized sawtooth wave",
+    "module": "msp",
+    "category": [
+      "MSP Plug-ins"
+    ],
+    "alias": "plugphasor~"
   },
   "plugreceive~": {
     "digest": "Receive audio from another plug-in",
@@ -3941,6 +5831,14 @@
       "MSP Polyphony"
     ]
   },
+  "mc.poly~": {
+    "digest": "Manage polyphony/DSP for patchers",
+    "module": "msp",
+    "category": [
+      "MSP Polyphony"
+    ],
+    "alias": "poly~"
+  },
   "pong~": {
     "digest": "Variable range signal folding",
     "module": "msp",
@@ -3990,12 +5888,28 @@
       "MSP Routing"
     ]
   },
+  "mc.receive~": {
+    "digest": "Signals can be received from any loaded patcher, without patch cords",
+    "module": "msp",
+    "category": [
+      "MSP Routing"
+    ],
+    "alias": "receive~"
+  },
   "record~": {
     "digest": "Record sound into a buffer",
     "module": "msp",
     "category": [
       "MSP Sampling"
     ]
+  },
+  "mc.record~": {
+    "digest": "Record sound into a buffer",
+    "module": "msp",
+    "category": [
+      "MSP Sampling"
+    ],
+    "alias": "record~"
   },
   "rect~": {
     "digest": "Antialiased rectangular (pulse) oscillator",
@@ -4081,6 +5995,21 @@
       "pic": "scope~.svg"
     }
   },
+  "mc.scope~": {
+    "digest": "Visualize an audio signal",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "category": [
+        "Audio"
+      ],
+      "action": "scope~",
+      "pic": "scope~.svg"
+    },
+    "alias": "scope~"
+  },
   "selector~": {
     "digest": "Assign one of several inputs to an outlet",
     "module": "msp",
@@ -4129,6 +6058,14 @@
     "category": [
       "MSP I/O"
     ]
+  },
+  "mc.sfrecord~": {
+    "digest": "Record to audio file on disk",
+    "module": "msp",
+    "category": [
+      "MSP I/O"
+    ],
+    "alias": "sfrecord~"
   },
   "sig~": {
     "digest": "Convert numbers into audio signals",
@@ -4186,6 +6123,21 @@
       "action": "spectroscope~",
       "pic": "spectroscope~.svg"
     }
+  },
+  "mc.spectroscope~": {
+    "digest": "Signal spectrogram or sonogram",
+    "module": "msp",
+    "category": [
+      "MSP U/I"
+    ],
+    "palette": {
+      "category": [
+        "Audio"
+      ],
+      "action": "spectroscope~",
+      "pic": "spectroscope~.svg"
+    },
+    "alias": "spectroscope~"
   },
   "spike~": {
     "digest": "Report intervals of zero to non-zero transitions",
@@ -4250,12 +6202,28 @@
       "MSP Delays"
     ]
   },
+  "mc.tapin~": {
+    "digest": "Input to a delay line",
+    "module": "msp",
+    "category": [
+      "MSP Delays"
+    ],
+    "alias": "tapin~"
+  },
   "tapout~": {
     "digest": "Output from a delay line",
     "module": "msp",
     "category": [
       "MSP Delays"
     ]
+  },
+  "mc.tapout~": {
+    "digest": "Output from a delay line",
+    "module": "msp",
+    "category": [
+      "MSP Delays"
+    ],
+    "alias": "tapout~"
   },
   "techno~": {
     "digest": "Signal-driven step sequencer",
@@ -4342,14 +6310,22 @@
     ]
   },
   "vst~": {
-    "digest": "Host VST and Audio Unit plug-ins",
+    "digest": "Host VST, VST3 and Audio Unit plug-ins",
     "module": "msp",
     "category": [
       "MSP Plug-ins"
     ]
   },
   "audiounit~": {
-    "digest": "Host VST and Audio Unit plug-ins",
+    "digest": "Host VST, VST3 and Audio Unit plug-ins",
+    "module": "msp",
+    "category": [
+      "MSP Plug-ins"
+    ],
+    "alias": "vst~"
+  },
+  "mcs.vst~": {
+    "digest": "Host VST, VST3 and Audio Unit plug-ins",
     "module": "msp",
     "category": [
       "MSP Plug-ins"
@@ -4376,6 +6352,14 @@
     "category": [
       "MSP Sampling"
     ]
+  },
+  "mcs.wave~": {
+    "digest": "Variable size wavetable",
+    "module": "msp",
+    "category": [
+      "MSP Sampling"
+    ],
+    "alias": "wave~"
   },
   "windowed-fft~": {
     "digest": "Windowed/Overlapped Fast Fourier Transform",
@@ -4947,7 +6931,7 @@
     ]
   },
   "jit.gl.pix": {
-    "digest": "Generates pixel processing shaders from a patcher",
+    "digest": "Generates pixel processing shaders from a gen patcher",
     "module": "jit",
     "category": [
       "Jitter Code Generation"
@@ -5029,6 +7013,14 @@
     "category": [
       "Jitter OpenGL"
     ]
+  },
+  "jit.gl.layer": {
+    "digest": "Display video in OpenGL",
+    "module": "jit",
+    "category": [
+      "Jitter OpenGL"
+    ],
+    "alias": "jit.gl.videoplane"
   },
   "jit.gl.volume": {
     "digest": "Create a volume visualization",
@@ -5266,19 +7258,17 @@
     ]
   },
   "jit.movie": {
-    "digest": "Play a QuickTime movie",
+    "digest": "Play a movie",
     "module": "jit",
     "category": [
-      "Jitter Generators",
-      "Jitter QuickTime"
+      "Jitter Generators"
     ]
   },
   "jit.qt.movie": {
-    "digest": "Play or edit a QuickTime movie",
+    "digest": "Play or edit a movie",
     "module": "jit",
     "category": [
-      "Jitter Generators",
-      "Jitter QuickTime"
+      "Jitter Generators"
     ]
   },
   "jit.multiplex": {
@@ -6354,19 +8344,11 @@
     ]
   },
   "jit.playlist": {
-    "digest": "Play video files",
-    "module": "jit",
+    "digest": "TEXT_HERE",
+    "module": "MissingModule",
     "category": [
-      "Jitter"
-    ],
-    "palette": {
-      "category": [
-        "Data",
-        "Audio"
-      ],
-      "action": "plot~",
-      "pic": "plot~.svg"
-    }
+      "MissingCategory"
+    ]
   },
   "jit.plot": {
     "digest": "(x,y) plotting of a two-plane matrix",
@@ -6455,10 +8437,10 @@
     ]
   },
   "jit.qt.record": {
-    "digest": "Record a QuickTime movie",
+    "digest": "Record a movie",
     "module": "jit",
     "category": [
-      "Jitter QuickTime"
+      "Jitter Generators"
     ],
     "alias": "jit.record"
   },
@@ -6492,10 +8474,10 @@
     ]
   },
   "jit.record": {
-    "digest": "Record a QuickTime movie",
+    "digest": "Record a movie",
     "module": "jit",
     "category": [
-      "Jitter QuickTime"
+      "Jitter Generators"
     ]
   },
   "jit.release~": {
@@ -6779,10 +8761,10 @@
     ]
   },
   "jit.vcr": {
-    "digest": "Record a QuickTime movie with MSP audio",
+    "digest": "Record a movie with MSP audio",
     "module": "jit",
     "category": [
-      "Jitter QuickTime"
+      "Jitter"
     ]
   },
   "jit.wake": {
@@ -6801,7 +8783,7 @@
     ]
   },
   "jit.world": {
-    "digest": "Your world made easier",
+    "digest": "The Jitter world context",
     "module": "jit",
     "category": [
       "Jitter OpenGL"
@@ -6855,6 +8837,13 @@
       "action": "live.arrows",
       "pic": "live.arrows.svg"
     }
+  },
+  "live.banks": {
+    "digest": "Manage Max for Live Device banks for Push controllers.",
+    "module": "MissingModule",
+    "category": [
+      "MissingCategory"
+    ]
   },
   "live.button": {
     "digest": "Flash on any message, send a bang",
@@ -7093,6 +9082,20 @@
     "category": [
       "M4L U/I"
     ]
+  },
+  "mc.live.gain~": {
+    "digest": "Decibel volume slider and monitor",
+    "module": "m4l",
+    "category": [
+      "M4L U/I"
+    ],
+    "palette": {
+      "category": [
+        "Live"
+      ],
+      "action": "live.gain~",
+      "pic": "live.gain~.svg"
+    }
   },
   "midiselect": {
     "digest": "Select and interpret raw MIDI data",

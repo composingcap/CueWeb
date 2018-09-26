@@ -15,7 +15,7 @@
 		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		pH+pBSBUaTQ2fQMXOxH0Ul7Dizs=
+		qjSWW1AskfvRubmMkekzBnqYbjg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -26,13 +26,24 @@
 			<data>
 			4iZykm+0gg+ClzWFpNXGC/n5v3o=
 			</data>
+			<key>hash2</key>
+			<data>
+			lnlfiMGlClL5Qw/jV02LQ2pl03AgjK4jH+93Ho3BVag=
+			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Resources/Info.plist</key>
-		<data>
-		pH+pBSBUaTQ2fQMXOxH0Ul7Dizs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			qjSWW1AskfvRubmMkekzBnqYbjg=
+			</data>
+			<key>hash2</key>
+			<data>
+			uI1aOxF0P0a2QL3nJU0aMcwnmZm1Jkvl+xUDF5ornbY=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

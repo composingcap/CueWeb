@@ -1,8 +1,6 @@
 <jittershader name="hdr.bloom.tonemap.jxs">
 	<param name="tex_color" type="int" default="0" />
 	<param name="tex_bloom" type="int" default="1" />
-	<!-- param name="lumtex" type="int" default="1" / -->
-	<!-- param name="key" type="float" default="1.0" / -->
 	<param name="exposure_bias" type="float" default="2.0" />
 	<param name="white_point" type="float" default="11.2" />
 	<param name="inv_gamma" type="float" default="0.555555" />	
@@ -10,8 +8,6 @@
 	<language name="glsl" version="1.2">
 		<bind param="tex_color" program="fp" />
 		<bind param="tex_bloom" program="fp" />
-		<!-- bind param="lumtex" program="fp" / -->
-		<!-- bind param="key" program="fp" / -->
 		<bind param="exposure_bias" program="fp" />
 		<bind param="white_point" program="fp" />
 		<bind param="inv_gamma" program="fp" />
