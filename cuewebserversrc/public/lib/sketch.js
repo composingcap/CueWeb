@@ -1,5 +1,6 @@
 //Variables
 var cueWeb;
+var clock = 0;
 var socket; //IO to server
 var squareSide; //Stores the smallest side
 var flag = 'blank'; //Prepends the frame
@@ -27,6 +28,24 @@ var nextCue; //This no longer does anything -- See textMsg
 var ensembles = ['error']; //Stores enssemble lists
 var sel;
 
+var ts = timesync.create({
+  server: '/timesync',
+  interval: 1
+});
+
+ts.on('change', function (offset){
+     then = then-offset*0.001;
+});
+
+// get synchronized time
+var start = new Date(ts.now());
+
+setInterval(function () {
+  var thisTime = new Date(ts.now());
+  clock= thisTime.getTime()-start.getTime();
+}, 1000);
+
+
 function preload(){ //This calls the ensemble list from the server on load.
   loadJSON('/data/ensemble', function(reply){
     ensembles = reply;
@@ -46,6 +65,7 @@ function setup() {
   else{
     squareSide = height;
   }
+  frameRate(120);
 
     sel = createSelect();
     sel.position(width-250,height-50);
@@ -149,11 +169,11 @@ function draw() {
 
 function countdown(seconds){
     strokeWeight(squareSide/100);
-     stroke(100);
+    stroke(100);
     if (flag === 'countdown'){
-    if (count === 0) then = millis();
+    if (count === 0) then = clock;
     fill(255);
-    var timer = (seconds*1000-(millis()-then));
+    var timer = (seconds*1000-(clock-then));
     secs = Math.floor(timer*0.001);
     ms = Math.floor((timer - secs*1000)*0.01);
     textSize(squareSide/4);
@@ -183,7 +203,7 @@ function countdown(seconds){
   }
 
 function metroCountIn(tempo){
-    var now = millis();
+    var now = clock;
     var interval = 60/tempo*1000;
     var metroColor = [0,0,0];
     var clickTime = interval*8/9;
@@ -252,9 +272,9 @@ function metroCountIn(tempo){
   }
 
 function blink(blinkTime){
-    if (count === 0) then = millis();
+    if (count === 0) then = clock;
     background('yellow');
-    if (millis() - then >= blinkTime){
+    if (clock - then >= blinkTime){
       count = 0;
       if (flag === 'countdown')flag = frame;
       else {flag = 'blank'; frame = "blank";}
@@ -267,13 +287,13 @@ function blink(blinkTime){
 function alert(){
 
   if (alertNumber < 5){
-    if (count === 0) then = millis();
+    if (count === 0) then = clock;
     count ++;
-    if (millis() - then <250){
+    if (clock - then <250){
       background('red');
       fill('white');
     }
-    else if (millis() - then <= 500){
+    else if (clock - then <= 500){
       background("white");
       fill('red');
 
@@ -307,7 +327,7 @@ function displayText(){
   }
 
 function metro(tempo){
-  var now = millis();
+  var now = clock;
   var interval = 60/tempo*1000;
   var metroColor = [0,0,0];
   var clickTime = interval*8/9;
@@ -351,9 +371,9 @@ function stopwatch(){
   strokeWeight(squareSide/100);
    stroke(100);
   if (flag === 'timer'){
-  if (count === 0) then = millis();
+  if (count === 0) then = clock;
   fill(255);
-  var timer = (millis()-then);
+  var timer = (clock-then);
   secs = Math.floor(timer*0.001);
   ms =  Math.floor((timer - secs*1000)*0.01);
   textSize(squareSide/4);
@@ -378,7 +398,7 @@ function stopwatch(){
 }
 
 function conduct(listOfCues){
-  var now = millis();
+  var now = clock;
   var metroColor = [0,0,0];
   var clickTime = interval*8/9;
   if (listOfCues[cueMarker] === undefined) return;
