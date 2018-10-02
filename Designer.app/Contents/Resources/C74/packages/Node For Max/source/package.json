@@ -1,0 +1,27 @@
+{
+  "author": "Cycling '74",
+  "contributors": [
+    {
+      "name": "Florian Demmer",
+      "email": "florian@cycling74.com"
+    },
+    {
+      "name": "Sam Tarakajian",
+      "email": "sam@cycling74.com"
+    }
+  ],
+  "dependencies": {
+    "chokidar": "^2.0.3",
+    "colors": "^1.1.2",
+    "commander": "^2.11.0",
+    "debug": "^3.1.0",
+    "lodash.set": "^4.3.2"
+  },
+  "devDependencies": {},
+  "description": "NodeJS process manager for Max 8",
+  "main": "index.js",
+  "name": "node-for-max.core",
+  "private": true,
+  "scripts": {},
+  "version": "1.0.0"
+}

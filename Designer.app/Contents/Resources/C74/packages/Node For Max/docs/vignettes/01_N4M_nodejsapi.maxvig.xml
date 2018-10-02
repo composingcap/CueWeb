@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="_c74_vig.xsl" type="text/xsl"?>
+<vignette name="Node For Max - Exposed API within the Node.JS Context">
+	<header1>Exposed API within the Node.JS Context</header1>
+	<bodytext>
+		Here one would find the Node.JS runner shell documentation.
+	</bodytext>
+</vignette>

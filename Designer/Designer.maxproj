@@ -2,7 +2,7 @@
 	"name" : "Designer",
 	"version" : 1,
 	"creationdate" : 3580379101,
-	"modificationdate" : 3586179092,
+	"modificationdate" : 3621262634,
 	"viewrect" : [ 25.0, 47.0, 300.0, 500.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
@@ -31,7 +31,7 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Dropbox/Max/Projects/CueWeb/Designer",
+					"bootpath" : "~/GitHub/CueWeb/Designer",
 					"projectrelativepath" : "."
 				}
 

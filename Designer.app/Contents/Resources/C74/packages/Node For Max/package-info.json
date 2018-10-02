@@ -1,0 +1,34 @@
+{
+  "author": "Cycling '74",
+  "authors": [],
+  "description": "Use NodeJS from within Max",
+  "displayname": "",
+  "extends": "",
+  "extensible": 0,
+  "homepatcher": "n4m.launcher.maxpat",
+  "max_version_max": "none",
+  "max_version_min": "8.0",
+  "name": "Node For Max",
+  "os": {
+    "macintosh": {
+      "platform": [
+        "ia32",
+        "x64"
+      ],
+      "min_version": "none"
+    },
+    "windows": {
+      "platform": [
+        "ia32",
+        "x64"
+      ],
+      "min_version": "none"
+    }
+  },
+  "package_extra": {
+    "api_url": "https://max8beta:3BSJAo0Lxwg=@docs.cycling74.com/maxnode.docs/max-node-api/"
+  },
+  "tags": [],
+  "website": "https://cycling74.com/",
+  "version": "1.0.0"
+}

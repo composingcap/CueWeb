@@ -1,0 +1,15 @@
+{
+  "name": "n4m-snake",
+  "version": "1.0.0",
+  "description": "Node For Max Snake Game Example",
+  "main": "n4m.snake.js",
+  "scripts": {},
+  "author": "Cycling '74",
+  "contributors": [
+    {
+      "name": "Sam Tarakajian"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

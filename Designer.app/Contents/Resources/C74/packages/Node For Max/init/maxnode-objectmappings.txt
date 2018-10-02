@@ -1,0 +1,2 @@
+max definesubstitution node.debug bpatcher @name n4m.monitor.maxpat;
+max objectfile node.debug node.debug;

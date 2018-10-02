@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="_c74_vig.xsl" type="text/xsl"?>
+<vignette name="Node For Max Documentation - Table of Contents">
+	<header1>Node For Max Docs - Table of Contents</header1>
+	<bodytext>
+		<ul>
+			<li><link type="vignette" module="Node For Max" name="01_N4M_nodejsapi">Exposed API within the Node.JS Context</link></li>
+		</ul>
+	</bodytext>
+</vignette>

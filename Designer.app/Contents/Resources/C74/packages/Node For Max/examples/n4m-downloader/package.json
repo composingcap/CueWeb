@@ -1,0 +1,15 @@
+{
+  "name": "n4m-downloader",
+  "version": "1.0.0",
+  "description": "Node For Max Example Repository Download helper",
+  "main": "n4m.downloader.js",
+  "scripts": {},
+  "author": "Cycling '74",
+  "contributors": [
+    {
+      "name": "Florian Demmer"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}

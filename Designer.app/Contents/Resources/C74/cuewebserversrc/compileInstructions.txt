@@ -1,7 +1,0 @@
-to compompile make sure node.js is installed on your system.
-Install pkg node module using npm:
-    npm install -g pkg
-compile the app:
-    pkg .
-
-Move the app to the root folder so that max can find it.

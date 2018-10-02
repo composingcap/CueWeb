@@ -1,0 +1,19 @@
+{
+  "name": "n4m-squiggle",
+  "version": "1.0.0",
+  "description": "Node For Max Squiggle Server",
+  "main": "n4m.squiggle.js",
+  "scripts": {},
+  "author": "Cycling '74",
+  "contributors": [
+    {
+      "name": "Darwin Grosse"
+    },
+    {
+      "name": "Andrew Benson"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+  }
+}

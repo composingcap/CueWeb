@@ -1,0 +1,15 @@
+{
+  "name": "n4m-max-fs",
+  "version": "1.0.0",
+  "description": "Provide fs access to Max patches",
+  "main": "n4m.max-fs.js",
+  "scripts": {},
+  "author": "Cycling '74",
+  "contributors": [
+    {
+      "name": "Darwin Grosse"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {}
+}
