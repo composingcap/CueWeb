@@ -1,3 +1,6 @@
+var syncronized = 0;
+var metroDecay= 30;
+var clickAmount= 10/11;
 //Variables
 var cueWeb;
 var clock = 0;
@@ -27,10 +30,11 @@ var nextCue; //This no longer does anything -- See textMsg
 //enssemble selection
 var ensembles = ['error']; //Stores enssemble lists
 var sel;
+// Time syncronization
 
 var ts = timesync.create({
   server: '/timesync',
-  interval: 1
+  interval: 0.01
 });
 
 ts.on('change', function (offset){
@@ -42,8 +46,9 @@ var start = new Date(ts.now());
 
 setInterval(function () {
   var thisTime = new Date(ts.now());
-  clock= thisTime.getTime()-start.getTime();
+  syncClock= thisTime.getTime()-start.getTime();
 }, 1000);
+
 
 
 function preload(){ //This calls the ensemble list from the server on load.
@@ -65,7 +70,7 @@ function setup() {
   else{
     squareSide = height;
   }
-  frameRate(120);
+  frameRate(30);
 
     sel = createSelect();
     sel.position(width-250,height-50);
@@ -131,6 +136,9 @@ function setEnsemble(){
 //p5 draw loop
 
 function draw() {
+     if (syncronized == 1) clock = syncClock;
+     else clock = millis();
+
   if (countIn < 1){
     flag = frame;
   }
@@ -206,7 +214,7 @@ function metroCountIn(tempo){
     var now = clock;
     var interval = 60/tempo*1000;
     var metroColor = [0,0,0];
-    var clickTime = interval*8/9;
+    var clickTime = interval*clickAmount;
 
 
     if (count === 0){
@@ -223,8 +231,8 @@ function metroCountIn(tempo){
         //console.log("metro on");
       }
       else if(now < then+clickTime){
-        if (metroColor[0] > 0) metroColor[0] += -250/15;
-        if (metroColor[1] > 0) metroColor[1] += -250/15;
+        if (metroColor[0] > 0) metroColor[0] += -250/metroDecay;
+        if (metroColor[1] > 0) metroColor[1] += -250/metroDecay;
         fill(metroColor);
         //console.log("metro dimming");
       }
@@ -330,7 +338,7 @@ function metro(tempo){
   var now = clock;
   var interval = 60/tempo*1000;
   var metroColor = [0,0,0];
-  var clickTime = interval*8/9;
+  var clickTime = interval*clickAmount;
 
   if (count === 0){
     then = -interval;
@@ -347,8 +355,8 @@ function metro(tempo){
       //console.log("metro on");
     }
     else if(now < then+clickTime){
-      if (metroColor[0] > 0) metroColor[0] += -250/15;
-      if (metroColor[1] > 0) metroColor[1] += -250/30;
+      if (metroColor[0] > 0) metroColor[0] += -250/metroDecay;
+      if (metroColor[1] > 0) metroColor[1] += -250/metroDecay;
       fill(metroColor);
       //console.log("metro dimming");
     }
@@ -400,7 +408,7 @@ function stopwatch(){
 function conduct(listOfCues){
   var now = clock;
   var metroColor = [0,0,0];
-  var clickTime = interval*8/9;
+  var clickTime = interval*clickAmount;
   if (listOfCues[cueMarker] === undefined) return;
   thisCue = listOfCues[cueMarker].replace(/,/g,"");  //console.log(thisCue);
 
@@ -461,8 +469,8 @@ function conduct(listOfCues){
       //console.log("metro on");
     }
     else if(now < then+clickTime){
-      if (metroColor[0] > 0) metroColor[0] += -250/15;
-      if (metroColor[1] > 0) metroColor[1] += -250/15;
+      if (metroColor[0] > 0) metroColor[0] += -250/metroDecay;
+      if (metroColor[1] > 0) metroColor[1] += -250/metroDecay;
       fill(metroColor);
       //console.log("metro dimming");
     }
@@ -493,7 +501,7 @@ function conduct(listOfCues){
   textSize(squareSide/2);
   textAlign(CENTER,CENTER);
   fill(160);
-  if (beat == 1){
+  if (beat <= 1){
     textSize(squareSide/1.5);
     fill(255,0,0);
     text(measure, width/2 , height/2);
